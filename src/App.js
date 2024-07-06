@@ -1,10 +1,12 @@
-import './App.css';
-import Hero from './components/Hero';
+import "./App.css";
+import Frequently from "./components/Frequently";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <div>
-     <Hero/>
+      <Hero />
+      <Frequently />
     </div>
   );
 }
