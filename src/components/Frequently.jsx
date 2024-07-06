@@ -5,7 +5,11 @@ const Frequently = () => {
   return (
     <div className="pt-[140px]">
       <div className="container xl:max-w-[1164px]">
-        <CommonHeading />
+        <CommonHeading
+          className="capitalize text-center mb-10"
+          heading="Frequently Asked "
+          purpleHeading="Questions"
+        />
       </div>
     </div>
   );
