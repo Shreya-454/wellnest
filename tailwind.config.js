@@ -26,8 +26,10 @@ module.exports = {
       skyBlue:"#AEEFF4",
       darkGreen:"#4CDFB2",
       orange:"#FFB685",
+      lightOrange:"#FFB6851A",
       offBlack:"#OEDF13",
       darkSkyBlue:"#DA66C2",
+      
     },
     boxShadow:{
       buttonShadow:'2px 2px 0px 0px #000000'
