@@ -38,6 +38,7 @@ module.exports = {
     center:true,
   centerContent:true,
   }
+  
 }
 },
   plugins: [],
