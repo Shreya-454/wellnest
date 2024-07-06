@@ -39,7 +39,7 @@ module.exports = {
   centerContent:true,
   }, 
   screens:{
-    custom_md:"700px",
+    custom_lg:"1055px",
   }
   
 }
