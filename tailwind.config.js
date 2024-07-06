@@ -32,6 +32,10 @@ module.exports = {
     boxShadow:{
       buttonShadow:'2px 2px 0px 0px #000000'
   },
+  container:{
+    center:true,
+  centerContent:true,
+  }
 }
 },
   plugins: [],
