@@ -1,5 +1,5 @@
 export const CommonHeading = ({
-  purpleHeading,heading
+  purpleHeading,heading,className
 }) => {
   return (
     <h1
