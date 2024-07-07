@@ -1,5 +1,5 @@
 import React from 'react'
-import meetImg from '../assets/images/webp/headerImages/meetImg.webp'
+import meetImg from '../assets/images/webp/meetImages/meetImg.webp'
 import { CommonHeading, CommonPara } from './common/Headings'
 const Meet = () => {
   return (
@@ -29,6 +29,7 @@ const Meet = () => {
   <CommonPara text="Best Seller Awards" className="mb-2.5"/>
   </div>
    </div>
+   <div className="flex"></div>
 </div>
 </div>
 </div>
