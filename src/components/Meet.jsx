@@ -1,6 +1,7 @@
 import React from 'react'
 import meetImg from '../assets/images/webp/meetImages/meetImg.webp'
 import { CommonHeading, CommonPara } from './common/Headings'
+import qrImage from '../assets/images/webp/meetImages/qrScaner.webp'
 const Meet = () => {
   return (
     <div className='relative max-w-[1440px] mx-auto pt-[365px]'>
@@ -29,7 +30,12 @@ const Meet = () => {
   <CommonPara text="Best Seller Awards" className="mb-2.5"/>
   </div>
    </div>
-   <div className="flex"></div>
+   <div className="w-full max-w-[558px] py-[15px] px-[18px] rounded-3xl bg-purple border-r-4 border-b-4 border-black flex gap-[37px]">
+    <img src={qrImage} alt="QRImg" className='max-w-[130px]' />
+    <div>
+      <h3 className='font-poppins text-2xl font-medium leading-120 text-white'>Coach Mariam.</h3>
+    </div>
+   </div>
 </div>
 </div>
 </div>
