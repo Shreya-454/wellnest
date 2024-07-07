@@ -33,7 +33,9 @@ const Meet = () => {
    <div className="w-full max-w-[558px] py-[15px] px-[18px] rounded-3xl bg-purple border-r-4 border-b-4 border-black flex gap-[37px]">
     <img src={qrImage} alt="QRImg" className='max-w-[130px]' />
     <div>
-      <h3 className='font-poppins text-2xl font-medium leading-120 text-white'>Coach Mariam.</h3>
+      <h3 className='font-poppins text-2xl font-medium leading-120 text-white mb-[7px]'>Coach Mariam.</h3>
+      <p>Mail : coachmariam@gmail.com</p>
+      <p>  Phone : (+1) 987 643 4000</p>
     </div>
    </div>
 </div>
