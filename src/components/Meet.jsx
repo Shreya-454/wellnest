@@ -29,6 +29,7 @@ const Meet = () => {
   <CommonPara text="Best Seller Awards" className="mb-2.5"/>
   </div>
    </div>
+   <div className="w-full max-w-[558px] py-[15px] px-[18px] rounded-3xl bg-purple border-r-4 border-b-4 border-black flex gap-[37px]"></div>
 </div>
 </div>
 </div>
