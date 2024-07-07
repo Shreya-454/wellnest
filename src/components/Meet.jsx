@@ -14,7 +14,7 @@ const Meet = () => {
 </div>
 <div className="lg:w-1/2 w-full px-3 flex justify-center lg:justify-end">
 <div className='lg:max-w-[558px] w-full'>
-  <CommonHeading heading="Meet " purpleHeading=" Mariam" className=" after:absolute relative after:w-[55px] after:h-[3px] after:bg-purple after:left-0 after:-bottom-1 mb-7 max-lg:max-w-[324px] mx-auto max-lg:text-center"/>
+  <CommonHeading heading="Meet " purpleHeading=" Mariam" className=" after:absolute relative after:w-[55px] after:h-[3px] after:bg-purple after:left-0 after:-bottom-[-5px] mb-7 max-lg:max-w-[324px] mx-auto max-lg:text-center box-border"/>
   <p className='font-medium font-poppins text-xl leading-120 text-black text-opacity-70 mb-4 max-lg:text-center'>Hello There, I’m Mariam, Your New Health Coach!</p>
   <CommonPara text="After 2 degrees, 16+ years in corporate, and a decade of working through my own health issues, I embarked on a journey to heal, chuck the societal script and find a purpose that both motivated me everyday and allowed me to make a difference in the world." className="mb-4 max-lg:text-center"/>
   <CommonPara text="Through my own journey, I discovered the power of coaching and sought the guidance of a mentor who empowered me to overcome obstacles and reclaim control of my life. Now, as a Certified Health Coach, I am committed to paying forward this transformative support to others." className="mb-10 max-lg:text-center"/>
