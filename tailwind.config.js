@@ -27,12 +27,13 @@ module.exports = {
       darkGreen:"#4CDFB2",
       orange:"#FFB685",
       lightOrange:"#FFB6851A",
-      offBlack:"#OEDF13",
+      offBlack:"#0EDF13",
       darkSkyBlue:"#DA66C2",
       
     },
     boxShadow:{
-      buttonShadow:'2px 2px 0px 0px #000000'
+      buttonShadow:'2px 2px 0px 0px #000000',
+      accordianshadow:'0px 4px 23px 0px #0000001F'
   },
   container:{
     center:true,

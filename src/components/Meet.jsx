@@ -16,11 +16,11 @@ const Meet = () => {
   <CommonPara text="After 2 degrees, 16+ years in corporate, and a decade of working through my own health issues, I embarked on a journey to heal, chuck the societal script and find a purpose that both motivated me everyday and allowed me to make a difference in the world." className="mb-4"/>
   <CommonPara text="Through my own journey, I discovered the power of coaching and sought the guidance of a mentor who empowered me to overcome obstacles and reclaim control of my life. Now, as a Certified Health Coach, I am committed to paying forward this transformative support to others." className="mb-10"/>
   <div className="flex flex-row flex-wrap w-full mb-10">
-  <div className="w-1/3 border-r border-[#FFB685]">
+  <div className="w-1/3 border-r border-orange">
   <CommonHeading heading="02" className="mb-2"/>
   <CommonPara text="Books Published" className="mb-2.5"/>
   </div>
-  <div className="w-1/3 border-r border-[#FFB685] pl-9">
+  <div className="w-1/3 border-r border-orange pl-9">
   <CommonHeading heading="4.5" className="mb-2"/>
   <CommonPara text="User Reviews" className="mb-2.5"/>
   </div>
