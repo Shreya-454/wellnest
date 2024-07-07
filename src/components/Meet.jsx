@@ -14,26 +14,26 @@ const Meet = () => {
 </div>
 <div className="lg:w-1/2 w-full px-3 flex justify-center lg:justify-end">
 <div className='lg:max-w-[558px] w-full'>
-  <CommonHeading heading="Meet " purpleHeading=" Mariam" className=" after:absolute relative after:w-[55px] after:h-[3px] after:bg-purple after:left-0 after:-bottom-[-5px] mb-7 max-lg:max-w-[324px] mx-auto max-lg:text-center box-border"/>
+  <CommonHeading heading="Meet " purpleHeading=" Mariam" className=" after:absolute relative after:w-[55px] after:h-[3px] after:bg-purple after:left-0 after:-bottom-[-5px] mb-7 max-lg:max-w-[324px] mx-auto max-lg:text-center "/>
   <p className='font-medium font-poppins text-xl leading-120 text-black text-opacity-70 mb-4 max-lg:text-center'>Hello There, I’m Mariam, Your New Health Coach!</p>
   <CommonPara text="After 2 degrees, 16+ years in corporate, and a decade of working through my own health issues, I embarked on a journey to heal, chuck the societal script and find a purpose that both motivated me everyday and allowed me to make a difference in the world." className="mb-4 max-lg:text-center"/>
   <CommonPara text="Through my own journey, I discovered the power of coaching and sought the guidance of a mentor who empowered me to overcome obstacles and reclaim control of my life. Now, as a Certified Health Coach, I am committed to paying forward this transformative support to others." className="mb-10 max-lg:text-center"/>
   <div className="flex flex-row flex-wrap w-full mb-10">
-  <div className="w-1/3 border-r border-orange">
+  <div className="w-1/3 after:w-[1px] after:h-[88px] after:absolute relative after:bg-orange after:right-0 after:top-1">
   <CommonHeading heading="02" className="mb-2 max-lg:text-center"/>
-  <CommonPara text="Books Published" className="mb-2.5 max-lg:text-center"/>
+  <CommonPara text="Books Published" className="mb-2 max-lg:text-center"/>
   </div>
-  <div className="w-1/3 border-r border-orange lg:pl-9">
+  <div className="w-1/3 after:w-[1px] after:h-[88px] after:absolute relative after:bg-orange after:right-0 after:top-1 lg:pl-9">
   <CommonHeading heading="4.5" className="mb-2 max-lg:text-center"/>
-  <CommonPara text="User Reviews" className="mb-2.5 max-lg:text-center"/>
+  <CommonPara text="User Reviews" className="mb-2 max-lg:text-center"/>
   </div>
   <div className="w-1/3 lg:pl-9">
   <CommonHeading heading="04" className="mb-2 max-lg:text-center"/>
-  <CommonPara text="Best Seller Awards" className="mb-2.5 max-lg:text-center"/>
+  <CommonPara text="Best Seller Awards" className="mb-2 max-lg:text-center"/>
   </div>
    </div>
    <div className=' flex max-lg:justify-center max-sm:mt-24'>
-     <div className="w-full max-w-[558px] py-[15px] px-[18px] rounded-3xl bg-purple border-r-4 border-b-4 border-black max-sm:flex-col flex items-center gap-5 sm:gap-[37px]">
+     <div className="w-full max-w-[558px] py-[13px] px-[18px] rounded-3xl bg-purple border-r-4 border-b-4 border-black max-sm:flex-col flex items-center gap-5 sm:gap-[37px] box-border">
       <img src={qrImage} alt="QRImg" className='max-w-[130px] max-sm:-translate-y-20' />
       <div className='max-sm:-mt-20'>
       <h3 className='font-poppins text-2xl font-medium leading-120 text-white mb-[7px] max-sm:text-center'>Coach Mariam.</h3>
