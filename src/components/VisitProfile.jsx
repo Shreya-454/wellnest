@@ -11,12 +11,12 @@ const VisitProfile = () => {
         <img
           src={vector}
           alt="vector"
-          className="absolute w-full top-[-7%] left-0 xl:max-w-[545px] max-w-[500px] h-[651px] lg:block hidden"
+          className="absolute w-full top-[-7%] left-0 xl:max-w-[545px] max-w-[500px] h-[651px] lg:block hidden pointer-events-none"
         />
         <img
           src={ellipsvector}
           alt="ellipsvector"
-          className="absolute w-full max-w-[91px] bottom-0 right-0"
+          className="absolute w-full max-w-[91px] bottom-0 right-0 pointer-events-none"
         />
         <div className="flex flex-row flex-wrap justify-between">
           <div className="lg:w-5/12 w-full flex justify-center">

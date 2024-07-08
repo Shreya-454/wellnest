@@ -35,7 +35,7 @@ const Frequently = () => {
       <img
         src={greenellipsevector}
         alt="greenellipsevector"
-        className="absolute w-full max-w-[120px] left-0 h-[249px] bottom-0 max-xl:opacity-50 lg:block hidden"
+        className="absolute w-full max-w-[120px] left-0 h-[249px] bottom-0 max-xl:opacity-50 lg:block hidden pointer-events-none"
       />
       <div className="container xl:max-w-[1164px] mx-auto px-4 relative z-10">
         <CommonHeading
