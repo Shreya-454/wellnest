@@ -29,6 +29,7 @@ module.exports = {
       lightOrange:"#FFB6851A",
       offBlack:"#0E0F13",
       darkSkyBlue:"#DA66C2",
+      footerBg:"#2222221A",
       
     },
     boxShadow:{
