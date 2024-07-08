@@ -6,9 +6,9 @@ import Meet from "./components/Meet";
 function App() {
   return (
     <div>
-      <Hero />
-      <Meet/>
-      <Frequently />
+     <Hero/>
+     <Meet/>
+     <Frequently/>
     </div>
   );
 }
