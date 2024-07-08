@@ -2,6 +2,9 @@ import heroImg1 from '../../assets/images/webp/headerImages/heroImg1.webp'
 import heroImg2 from '../../assets/images/webp/headerImages/heroImg2.webp'
 import heroImg3 from '../../assets/images/webp/headerImages/heroImg3.webp'
 import heroImg4 from '../../assets/images/webp/headerImages/heroImg4.webp'
+import coaching from '../../assets/images/svg/servicesSvg/coaching.svg'
+import cunsultancy from '../../assets/images/svg/servicesSvg/consultancy.svg'
+import home from '../../assets/images/svg/servicesSvg/home.svg'
 export const HeroImageList = [
     {
         img:heroImg1
@@ -98,4 +101,27 @@ export const accordionData = [
     ],
   },
 ];
+
+export const ServiceList =[
+  {
+    icon:coaching,
+    title:"One-On-One Coaching",
+    discription:'As a Certified Health Coach, I support individuals in addressing all areas of their life to achieve alignment, balance, purpose, health, wellness and happiness. Click here to find out more and book your free consultation!',
+    btnname:"Find Out More",
+  },
+  {
+    icon:cunsultancy,
+    title:"Brand Consultancy & Corporate Wellness",
+    discription:'With 16 years of corporate experience, I now partner with businesses that value social responsibility, aim to build authentic brands, and strive to be Employers of Choice. Click here to explore my services and workshops.',
+    btnname:"Explore More",
+  },
+  {
+    icon:home,
+    title:"Wellness Store",
+    discription:"We are thrilled to introduce a space dedicated to nurturing your mind, body, and spirit. Whether you're looking to enhance your physical health, boost your mental clarity, or find balance in your daily life, our store will offer everything you need to thrive.",
+    btnname:"Book Your Free Consultaion",
+  }
+]
+
+
 
