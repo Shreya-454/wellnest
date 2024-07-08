@@ -1,4 +1,5 @@
 import "./App.css";
+import Services from "./components/common/Services";
 import Frequently from "./components/Frequently";
 import Hero from "./components/Hero";
 import Meet from "./components/Meet";
@@ -9,6 +10,7 @@ function App() {
     <div className="overflow-hidden">
       <Hero />
       <Meet />
+      <Services/>
       <Frequently />
       <VisitProfile />
     </div>
