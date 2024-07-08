@@ -1,7 +1,5 @@
-import './App.css';
-import Hero from './components/Hero';
-import Nav from './components/Nav';
-import Vision from './components/Vision';
+import "./App.css";
+import Services from "./components/common/Services";
 import Frequently from "./components/Frequently";
 import Meet from "./components/Meet";
 import WhatWhy from './components/WhatWhy';
@@ -11,11 +9,11 @@ function App() {
   return (
     <div>
       <Hero />
-      <Meet/>
-      <Vision/>
-      <Frequently/>
-      <VisitProfile/>
+      <Meet />
+      <Services/>
       <WhatWhy/>
+      <Frequently />
+      <VisitProfile />
     </div>
   );
 }
