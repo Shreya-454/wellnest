@@ -30,6 +30,7 @@ module.exports = {
       offBlack:"#0E0F13",
       darkSkyBlue:"#DA66C2",
       footerBg:"#2222221A",
+      offWhite:"#FFFFFF33",
       
     },
     boxShadow:{
