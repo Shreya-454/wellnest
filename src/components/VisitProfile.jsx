@@ -23,7 +23,7 @@ const VisitProfile = () => {
             <img
               src={wellnestlogo}
               alt="wellnestlogo"
-              className="lg:w-[372px] lg:h-[237px] sm:w-[350px] w-[220px] sm:h-[180px] h-[110px]"
+              className="lg:w-[372px] lg:h-[237px] sm:w-[350px] w-[140px] sm:h-[180px] h-[100px]"
             />
           </div>
           <div className="lg:w-6/12 w-full flex flex-col lg:items-start items-center lg:pt-0 md:pt-11 sm:pt-9 pt-6">
