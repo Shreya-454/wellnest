@@ -1,16 +1,21 @@
-import "./App.css";
+import './App.css';
+import Hero from './components/Hero';
+import Nav from './components/Nav';
+import Vision from './components/Vision';
 import Frequently from "./components/Frequently";
-import Hero from "./components/Hero";
 import Meet from "./components/Meet";
-import VisitProfile from "./components/VisitProfile";
+import WhatWhy from './components/WhatWhy';
+import VisitProfile from './components/VisitProfile';
 
 function App() {
   return (
-    <div className="overflow-hidden">
+    <div>
       <Hero />
-      <Meet />
-      <Frequently />
-      <VisitProfile />
+      <Meet/>
+      <Vision/>
+      <Frequently/>
+      <VisitProfile/>
+      <WhatWhy/>
     </div>
   );
 }
