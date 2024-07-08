@@ -1,23 +1,24 @@
-import heroImg1 from '../../assets/images/webp/headerImages/heroImg1.webp'
-import heroImg2 from '../../assets/images/webp/headerImages/heroImg2.webp'
-import heroImg3 from '../../assets/images/webp/headerImages/heroImg3.webp'
-import heroImg4 from '../../assets/images/webp/headerImages/heroImg4.webp'
+import heroImg1 from "../../assets/images/webp/headerImages/heroImg1.webp";
+import heroImg2 from "../../assets/images/webp/headerImages/heroImg2.webp";
+import heroImg3 from "../../assets/images/webp/headerImages/heroImg3.webp";
+import heroImg4 from "../../assets/images/webp/headerImages/heroImg4.webp";
+import { Instagrame, Twitter, Facebook, Youtube, Music } from "../common/Icon";
 export const HeroImageList = [
-    {
-        img:heroImg1
-    },
-    {
-        img:heroImg2
-    },
-    {
-        img:heroImg3
-    },
-    {
-        img:heroImg4
-    },
-]
+  {
+    img: heroImg1,
+  },
+  {
+    img: heroImg2,
+  },
+  {
+    img: heroImg3,
+  },
+  {
+    img: heroImg4,
+  },
+];
 
-// ======================================FREQUENTYL======================================
+// ====================================== Frequently ======================================
 export const accordionData = [
   {
     index: 0,
@@ -98,4 +99,58 @@ export const accordionData = [
     ],
   },
 ];
-
+// ======================================== Footer ========================================
+export const footerSocialIcon = [
+  {
+    icons: <Instagrame />,
+    url: "https://www.instagram.com/",
+  },
+  {
+    icons: <Twitter />,
+    url: "https://x.com/",
+  },
+  {
+    icons: <Facebook />,
+    url: "https://www.facebook.com/",
+  },
+  {
+    icons: <Youtube />,
+    url: "https://www.youtube.com/",
+  },
+  {
+    icons: <Music />,
+    url: "https://music.apple.com/",
+  },
+];
+export const footerLinkList = [
+  {
+    title: "Use Cases",
+    links: [
+      { link: "About Wellnest", path: "/about" },
+      { link: "Our Services", path: "/services" },
+      { link: "Benefits", path: "/benefits" },
+      { link: "FAQs", path: "/faq" },
+      { link: "Upcoming Workshops", path: "/workshops" },
+    ],
+  },
+  {
+    title: "Policies",
+    links: [
+      {
+        link: "User Agreement",
+      },
+      {
+        link: "Terms & Conditions",
+      },
+      {
+        link: "Privacy Policy",
+      },
+      {
+        link: "Legal Policy",
+      },
+      {
+        link: "What’s New",
+      },
+    ],
+  },
+];

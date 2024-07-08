@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer";
 import Frequently from "./components/Frequently";
 import Hero from "./components/Hero";
 import Meet from "./components/Meet";
@@ -11,6 +12,7 @@ function App() {
       <Meet />
       <Frequently />
       <VisitProfile />
+      <Footer />
     </div>
   );
 }
