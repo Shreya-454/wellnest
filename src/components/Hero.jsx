@@ -2,9 +2,11 @@ import React from 'react'
 import { CommonPara } from './common/Headings'
 import { Button } from './common/Button'
 import { HeroImageList } from './common/Helper'
+import Nav from './Nav'
 const Hero = () => {
   return (
     <div className='min-h-[810px] bg-[url(./assets/images/webp/headerImages/heroBgImg.webp)] bg-cover bg-center bg-no-repeat bg-lightOrange'>
+      <Nav/>
       <div className="container mx-auto px-4 xl:max-w-[1320px] max-w-[1164px] pt-20">
         <h1 className='md:text-custom_6xl sm:text-5xl text-4xl font-poppins font-bold text-black text-center leading-120 mb-4'>Welcome To <span className='text-purple leading-120'>Wellnest</span></h1>
         <CommonPara text="Supporting Individuals And Companies In Achieving Their Highest Potential For The Betterment Of Themselves And Our Community." className="text-center max-w-[642px] mx-auto mb-10"/>

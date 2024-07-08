@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import navlogo from "../assets/images/svg/header/wellnestLogo.svg";
 
-const Nav = () => {
+export const Nav = () => {
   const [show, setshow] = useState(true);
   function nav() {
     setshow(!show);
