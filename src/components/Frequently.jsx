@@ -48,7 +48,7 @@ const Frequently = () => {
             <div
               className={`${
                 openAccordion === index
-                  ? "md:pl-[70.5px] sm:pl-[40px] pl-[35px] pt-6 pb-[23px]"
+                  ? "md:pl-[70.5px] sm:pl-[40px] pl-6 pt-6 pb-[23px]"
                   : ""
               } accordion-item py-[18.5px] border-solid border-r-[2px] border-b-[2px] border-black rounded-xl transition-all duration-300 ease-in-out md:px-6 px-5 shadow-accordianshadow`}
               key={index}
