@@ -69,7 +69,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="border-[0.5px] border-solid w-full border-black opacity-10"></div>
+      <div className="h-[1px] w-full bg-black opacity-10"></div>
       <div className="max-w-[1164px] mx-auto py-[15px] flex justify-between px-4">
         <p className="font-normal capitalize leading-normal md:text-base sm:text-sm text-xs text-black opacity-80 font-poppins">
           The Wellnest {new Date().getFullYear()}. All Rights Reserved.
