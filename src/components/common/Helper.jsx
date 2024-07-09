@@ -21,8 +21,24 @@ export const HeroImageList = [
     img: heroImg4,
   },
 ];
+// ================== UNLOCk ===================
+export const UnlockData = [
+  {
+    dates: "01",
+    tittle:
+      "Meditation 101: Learn the basics of meditation to start your own practice.",
+  },
+  {
+    dates: "04",
+    tittle: "Tap into your Intuition",
+  },
+  {
+    dates: "06",
+    tittle: "Living in Alignment",
+  },
+];
 
-// ====================================== Frequently ======================================
+// ======================================FREQUENTYL======================================
 export const accordionData = [
   {
     index: 0,

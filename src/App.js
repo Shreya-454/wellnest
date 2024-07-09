@@ -6,17 +6,18 @@ import WhatWhy from './components/WhatWhy';
 import VisitProfile from './components/VisitProfile';
 import Hero from "./components/Hero";
 import Services from "./components/Services";
+import Unlock from './components/Unlock';
+import Key from './components/Key';
 
 function App() {
   return (
     <div>
       <Hero />
-      <Meet />
-      <Services/>
+      <Meet/>
+      <Vision/>
+      <Frequently/>
+      <VisitProfile/>
       <WhatWhy/>
-      <Frequently />
-      <VisitProfile />
-      <Footer />
     </div>
   );
 }
