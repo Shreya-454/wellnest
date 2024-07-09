@@ -8,16 +8,21 @@ import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Unlock from './components/Unlock';
 import Key from './components/Key';
+import Vision from "./components/Vision";
 
 function App() {
   return (
     <div>
       <Hero />
       <Meet/>
-      <Vision/>
+      <Services/>
+      <Key/>
+   <Vision/>
+   <Unlock/>
+   <WhatWhy/>
       <Frequently/>
       <VisitProfile/>
-      <WhatWhy/>
+ <Footer/>
     </div>
   );
 }
