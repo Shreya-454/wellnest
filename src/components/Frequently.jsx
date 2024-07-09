@@ -16,7 +16,7 @@ const Frequently = () => {
   };
 
   return (
-    <div className="xl:pt-[140px] lg:pt-24 md:pt-20 sm:pt-16 pt-12 relative">
+    <div className="xl:pt-[140px] lg:pt-24 md:pt-20 sm:pt-16 pt-12 relative overflow-x-clip">
       <img
         src={linevector}
         alt="linevector"
