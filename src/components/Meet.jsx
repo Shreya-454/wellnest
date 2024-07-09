@@ -5,7 +5,7 @@ import qrImage from '../assets/images/webp/meetImages/qrScaner.webp'
 import meetEllipse from '../assets/images/webp/meetImages/meetEllipse.webp'
 const Meet = () => {
   return (
-    <div className=' relative'>
+    <div className=' relative' id='about'>
         <img src={meetEllipse} alt="ellipse" className='absolute top-0  object-cover w-full z-[-1]' />
       <div className='max-w-[1440px] mx-auto xl:pt-[365px] lg:pt-56 sm:pt-44 pt-24'>
         <div className="container max-w-[1322px] px-4 xl:-translate-x-[7%]">
