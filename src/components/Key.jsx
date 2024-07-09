@@ -29,7 +29,7 @@ const Key = () => {
         <img
           src={topQuotes}
           alt="top"
-          class="absolute top-[18%] lg:block hidden left-[-6%] pointer-events-none z-0"
+          className="absolute top-[18%] lg:block hidden left-[-6%] pointer-events-none z-0"
         />
         <img
           src={bottomQuotes} width={74} height={60.48}

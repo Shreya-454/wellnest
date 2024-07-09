@@ -18,7 +18,7 @@ const ServiceCards = (props) => {
         {props.discription}
       </p>
       <Button btnName={props.name} />
-      <div className={`bg-offWhite absolute pointer-events-none top-0 left-0 right-0 bottom-0 backdrop-blur-md flex justify-center items-center ${props.class}`}>
+      <div className={`bg-offWhite absolute pointer-events-none top-0 left-0 right-0 bottom-0 backdrop-blur-md flex justify-center items-center ${props.className}`}>
         <div className=" flex flex-col items-center">
           <div className="sm:w-20 sm:h-20 w-16 h-16 rounded-full flex bg-white justify-center items-center mb-5">
             <img src={props.icon} alt="icons"  width={40} height={40}/>
