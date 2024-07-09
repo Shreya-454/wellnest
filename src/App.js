@@ -13,16 +13,16 @@ import Vision from "./components/Vision";
 function App() {
   return (
     <div>
-      <Hero />
+      {/* <Hero />
       <Meet/>
-      <Services/>
+      <Services/> */}
       <Key/>
    <Vision/>
    <Unlock/>
    <WhatWhy/>
-      <Frequently/>
+      {/* <Frequently/>
       <VisitProfile/>
- <Footer/>
+ <Footer/> */}
     </div>
   );
 }

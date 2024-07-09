@@ -7,11 +7,11 @@ import pupleWave from "../assets/images/svg/key/purpleWave.svg"
 
 const Key = () => {
   return (
-    <div className="mt-32 lg:h-[404px] max-lg:pb-8 bg-lightOrange z-[2] relative">
+    <section className="xl:mt-32 lg:mt-28 md:mt-20 mt-16 lg:h-[404px] max-lg:pb-6 bg-lightOrange z-[2] relative">
       <img
         src={pupleWave}
         alt="wave"
-        className="absolute bottom-[-20%] left-0"
+        className="absolute lg:bottom-[-20%] max-md:max-w-[100px] bottom-[-6%] left-0"
       />
 
       <img
@@ -28,16 +28,16 @@ const Key = () => {
         <img
           src={topQuotes}
           alt="top"
-          class="absolute top-[18%] lg:block hidden left-[6%] pointer-events-none z-0"
+          class="absolute top-[18%] lg:block hidden left-[-6%] pointer-events-none z-0"
         />
         <img
           src={bottomQuotes}
           alt="bottom"
-          className="bottom-[36%] lg:block hidden left-[30%] absolute pointer-events-none"
+          className="bottom-[38%] lg:block hidden left-[24%] absolute pointer-events-none"
         />
         <div className="flex flex-wrap flex-col-reverse justify-between lg:flex-row -mx-3 items-center">
           <div className="lg:w-7/12 w-full px-3 max-lg:mt-4">
-            <h3 className="font-poppins lg:text-start text-center lg:mb-6 sm:mb-4 mb-2 font-semibold leading-120 sm:text-2xl text-xl text-black lg:max-w-[618px]">
+            <h3 className="font-poppins lg:text-start text-center lg:mb-6 sm:mb-4 mb-2 font-semibold !leading-120 sm:text-2xl text-xl text-black lg:max-w-[618px]">
               “The key to change is honesty! It’s time we slow down and really
               look at the different parts of our lives that are feeding us and
               propelling us forward - and parts that are only holding us back.”
@@ -66,7 +66,7 @@ const Key = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
