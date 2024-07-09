@@ -22,9 +22,9 @@ const Unlock = () => {
             {UnlockData.map((obj, i) => (
               <div
                 key={i}
-                className="max-w-[594px] max-lg:mx-auto max-lg:mt-6 border-b border-lightBlack2 shadow-borderShadow "
+                className="max-w-[594px] max-lg:mx-auto mb-6 border-b border-lightBlack2 shadow-borderShadow "
               >
-                <div className="flex sm:flex-row lg:pt-6 flex-col md:gap-6 gap-3">
+                <div className="flex sm:flex-row pt-6 flex-col md:gap-6 gap-3">
                   <div className="mb-0">
                     <p className="lg:text-custom_5xl sm:text-start text-center md:text-4xl sm:text-3xl text-2xl text-black font-semibold !leading-78 font-poppins">
                       {obj.dates}
