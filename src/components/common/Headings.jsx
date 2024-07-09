@@ -1,7 +1,7 @@
 export const CommonHeading = ({ purpleHeading, heading, className }) => {
   return (
     <h2
-      className={`font-poppins text-black font-semibold leading-120 md:text-5xl sm:text-4xl text-3xl ${className}`}
+      className={`font-poppins text-black font-semibold !leading-120 md:text-5xl sm:text-4xl text-3xl ${className}`}
     >
       {heading}
       <span className="text-purple">{purpleHeading}</span>

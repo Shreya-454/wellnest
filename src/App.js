@@ -6,16 +6,20 @@ import Frequently from "./components/Frequently";
 import Meet from "./components/Meet";
 import WhatWhy from './components/WhatWhy';
 import VisitProfile from './components/VisitProfile';
+import Unlock from './components/Unlock';
+import Key from './components/Key';
 
 function App() {
   return (
     <div>
       <Hero />
-      <Meet/>
+      <Meet />
+      <Key/>
       <Vision/>
       <Frequently/>
-      <VisitProfile/>
-      <WhatWhy/>
+      <VisitProfile />
+      <Unlock/>
+      <WhatWhy />
     </div>
   );
 }
