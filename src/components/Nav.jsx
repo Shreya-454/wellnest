@@ -12,7 +12,7 @@ export const Nav = () => {
     }
   }
     return (
-      <div className="container px-3 max-w-[1140px]">
+      <div className="container px-4 max-w-[1172px]">
         <div className="py-6 flex items-center justify-between">
           <a href="#">
             <img src={navlogo} alt="logo" className="max-sm:w-[140px]" />

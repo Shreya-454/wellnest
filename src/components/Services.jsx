@@ -6,7 +6,7 @@ import ServiceCards from './ServiceCards'
 const Services = () => {
   return (
     <div className='pt-[140px]'>
-      <div className="container max-w-[1164px] px-3 mx-auto">
+      <div className="container max-w-[1172px] px-4 mx-auto">
 <CommonHeading heading="Wellnest" purpleHeading=" Services" className="text-center mb-10"/>
 <div className="flex flex-wrap flex-row -mx-3 justify-center">
 {ServiceList.map((item,i)=>(
