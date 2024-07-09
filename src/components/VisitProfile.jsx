@@ -1,8 +1,8 @@
 import React from "react";
-import vector from "../assets/images/svg/visitprofile/profileVector.svg";
-import wellnestlogo from "../assets/images/svg/visitprofile/wellnestProfileLogo.svg";
+import vector from "../assets/images/svg/visit/profileVector.svg";
+import wellnestlogo from "../assets/images/svg/visit/wellnestProfileLogo.svg";
 import { LinkdinVisitProfile } from "./common/Icon";
-import ellipsvector from "../assets/images/svg/visitprofile/profileEllipsVector.svg";
+import ellipsvector from "../assets/images/svg/visit/profileEllipsVector.svg";
 
 const VisitProfile = () => {
   return (

@@ -3,9 +3,9 @@ import heroImg1 from '../../assets/images/webp/headerImages/heroImg1.webp'
 import heroImg2 from '../../assets/images/webp/headerImages/heroImg2.webp'
 import heroImg3 from '../../assets/images/webp/headerImages/heroImg3.webp'
 import heroImg4 from '../../assets/images/webp/headerImages/heroImg4.webp'
-import coaching from '../../assets/images/svg/servicesSvg/coaching.svg'
-import cunsultancy from '../../assets/images/svg/servicesSvg/consultancy.svg'
-import home from '../../assets/images/svg/servicesSvg/home.svg'
+import coaching from '../../assets/images/svg/services/coaching.svg'
+import cunsultancy from '../../assets/images/svg/services/consultancy.svg'
+import home from '../../assets/images/svg/services/home.svg'
 import { Instagrame, Twitter, Facebook, Youtube, Music } from "../common/Icon";
 
 // =============== HERO SECTION =============
