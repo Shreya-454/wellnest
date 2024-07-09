@@ -1,10 +1,11 @@
 import "./App.css";
-import Services from "./components/Services";
+import Footer from "./components/Footer";
 import Frequently from "./components/Frequently";
 import Meet from "./components/Meet";
 import WhatWhy from './components/WhatWhy';
 import VisitProfile from './components/VisitProfile';
 import Hero from "./components/Hero";
+import Services from "./components/Services";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <WhatWhy/>
       <Frequently />
       <VisitProfile />
+      <Footer />
     </div>
   );
 }

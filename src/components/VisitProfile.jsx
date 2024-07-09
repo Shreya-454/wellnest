@@ -6,24 +6,24 @@ import ellipsvector from "../assets/images/svg/visitprofile/profileEllipsVector.
 
 const VisitProfile = () => {
   return (
-    <div className="pt-[71px] lg:px-0 px-4">
+    <div className="sm:pt-[71px] pt-12 lg:px-0 px-4">
       <div className="container xl:max-w-[1164px] px-4 mx-auto bg-orange lg:py-[116px] sm:py-24 py-20 rounded-3xl border-solid border-r-8 border-b-8 border-black relative overflow-hidden">
         <img
           src={vector}
           alt="vector"
-          className="absolute w-full top-[-7%] left-0 xl:max-w-[545px] max-w-[500px] h-[651px] lg:block hidden"
+          className="absolute w-full top-[-7%] left-0 xl:max-w-[545px] max-w-[500px] h-[651px] lg:block hidden pointer-events-none"
         />
         <img
           src={ellipsvector}
           alt="ellipsvector"
-          className="absolute w-full max-w-[91px] bottom-0 right-0"
+          className="absolute w-full max-w-[91px] bottom-0 right-0 pointer-events-none"
         />
         <div className="flex flex-row flex-wrap justify-between">
           <div className="lg:w-5/12 w-full flex justify-center">
             <img
               src={wellnestlogo}
               alt="wellnestlogo"
-              className="lg:w-[372px] lg:h-[237px] sm:w-[350px] w-[220px] sm:h-[180px] h-[110px]"
+              className="lg:w-[372px] lg:h-[237px] sm:w-[350px] w-[140px] sm:h-[180px] h-[100px]"
             />
           </div>
           <div className="lg:w-6/12 w-full flex flex-col lg:items-start items-center lg:pt-0 md:pt-11 sm:pt-9 pt-6">

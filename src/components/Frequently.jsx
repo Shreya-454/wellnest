@@ -35,7 +35,7 @@ const Frequently = () => {
       <img
         src={greenellipsevector}
         alt="greenellipsevector"
-        className="absolute w-full max-w-[120px] left-0 h-[249px] bottom-0 max-xl:opacity-50 lg:block hidden"
+        className="absolute w-full max-w-[120px] left-0 h-[249px] bottom-0 max-xl:opacity-50 lg:block hidden pointer-events-none"
       />
       <div className="container xl:max-w-[1164px] mx-auto px-4 relative z-10">
         <CommonHeading
@@ -48,7 +48,7 @@ const Frequently = () => {
             <div
               className={`${
                 openAccordion === index
-                  ? "md:pl-[70.5px] sm:pl-[40px] pl-[35px] pt-6 pb-[23px]"
+                  ? "md:pl-[70.5px] sm:pl-[40px] pl-6 pt-6 pb-[23px]"
                   : ""
               } accordion-item py-[18.5px] border-solid border-r-[2px] border-b-[2px] border-black rounded-xl transition-all duration-300 ease-in-out md:px-6 px-5 shadow-accordianshadow`}
               key={index}
