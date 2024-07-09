@@ -16,7 +16,7 @@ const Hero = () => {
 <div className="flex flex-row flex-wrap -mx-3">
     { HeroImageList.map((item,i)=>(
             <div key={i} className={`md:w-1/4 sm:w-1/2 w-full flex max-sm:justify-center w px-3 ${i === 0 ? " lg:translate-y-[83px] md:translate-y-8 mb-6 justify-end": ""} ${i=== 2 ? "lg:translate-y-[70.48px] md:translate-y-8 justify-end max-sm:mb-6":""} ${i === 1 ?"mb-6":""}`}>
-                <div className='max-w-[303.54px] w-full max-h-[427.45px] rounded-3xl overflow-hidden'><img src={item.img} alt="heroImg" className={`max-w-[303.54px] hover:scale-110 duration-300 w-full max-h-[427.45px] rounded-3xl max-xl:object-cover`} /></div>
+                <div className='max-w-[303.54px] w-full max-h-[427.45px] rounded-3xl overflow-hidden'><img src={item.img} alt="heroImg" width={303.54} height={427.45} className={`max-w-[303.54px] hover:scale-110 duration-300 w-full max-h-[427.45px] rounded-3xl max-xl:object-cover`} /></div>
             </div>
         ))
     }

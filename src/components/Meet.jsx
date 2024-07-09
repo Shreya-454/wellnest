@@ -11,7 +11,7 @@ const Meet = () => {
         <div className="container max-w-[1322px] px-4 xl:-translate-x-[7%]">
       <div className="flex flex-row flex-wrap -mx-3 items-center">
       <div className="lg:w-1/2 w-full flex justify-center px-3">
-      <img src={meetImg} alt="meetImg" className='lg:max-w-[611px] max-w-[480px] w-full'/>
+      <img src={meetImg} alt="meetImg" className='lg:max-w-[611px] max-w-[480px] w-full' width={611} height={714.56}/>
       </div>
       <div className="lg:w-1/2 w-full px-3 flex justify-center lg:justify-end">
       <div className='lg:max-w-[558px] w-full'>
@@ -35,7 +35,7 @@ const Meet = () => {
          </div>
          <div className=' flex max-lg:justify-center max-sm:mt-24'>
        <div className="w-full max-w-[558px] py-[13px] px-[18px] rounded-3xl bg-purple border-r-4 border-b-4 border-black max-sm:flex-col flex items-center gap-5 sm:gap-[37px] box-border">
-        <img src={qrImage} alt="QRImg" className='max-w-[130px] max-sm:-translate-y-20' />
+        <img src={qrImage} alt="QRImg" className='max-w-[130px] max-sm:-translate-y-20' height={130} width={130} />
         <div className='max-sm:-mt-20'>
         <h3 className='font-poppins text-xl sm:text-2xl font-medium !leading-120 text-white mb-[7px] max-sm:text-center'>Coach Mariam.</h3>
         <p className='font-inter text-base sm:text-custom_lg tracking-[0.01em] text-white text-opacity-90 leading-180 max-sm:text-center'>Mail : coachmariam@gmail.com</p>
