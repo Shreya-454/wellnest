@@ -22,8 +22,8 @@ const Hero = () => {
     }
 </div>
       </div> 
-      <img src={greenEllipse} alt="ellipse" className='absolute left-0 top-[20%]' />
-      <img src={orangeEllipse} alt="orangeEllipse"  className='absolute right-0 top-[39%] z-[-1]'/>
+      <img src={greenEllipse} alt="ellipse" className='absolute left-0 top-[20%] max-lg:max-w-[65px] max-lg:top-[38%] max-md:top-[21%] max-sm:hidden' />
+      <img src={orangeEllipse} alt="orangeEllipse"  className='absolute right-0 top-[39%] z-[-1] max-lg:max-w-[65px] max-sm:hidden'/>
     </div>
   )
 }
