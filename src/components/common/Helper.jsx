@@ -7,6 +7,15 @@ import coaching from '../../assets/images/svg/servicesSvg/coaching.svg'
 import cunsultancy from '../../assets/images/svg/servicesSvg/consultancy.svg'
 import home from '../../assets/images/svg/servicesSvg/home.svg'
 import { Instagrame, Twitter, Facebook, Youtube, Music } from "../common/Icon";
+
+// =============== HERO SECTION =============
+export const NavLinkList = [
+  { link: "About Wellnest", path: "#about" },
+  { link: "Our Services", path: "#services" },
+  { link: "Benefits", path: "/benefits" },
+  { link: "FAQs", path: "/faq" },
+  { link: "Upcoming Workshops", path: "/workshops" },
+];
 export const HeroImageList = [
   {
     img: heroImg1,
@@ -21,7 +30,8 @@ export const HeroImageList = [
     img: heroImg4,
   },
 ];
-// ================== UNLOCk ===================
+
+// ================== UNLOCK ===================
 export const UnlockData = [
   {
     dates: "01",
@@ -38,7 +48,7 @@ export const UnlockData = [
   },
 ];
 
-// ======================================FREQUENTYL======================================
+// =============== FREQUENTLY ===================
 export const accordionData = [
   {
     index: 0,
@@ -119,7 +129,6 @@ export const accordionData = [
     ],
   },
 ];
-
 export const ServiceList =[
   {
     icon:coaching,
@@ -141,8 +150,7 @@ export const ServiceList =[
   }
 ]
 
-
-
+// ============== FOOTER ===================
 export const footerSocialIcon = [
   {
     icons: <Instagrame />,
