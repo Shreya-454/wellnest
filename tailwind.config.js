@@ -11,6 +11,7 @@ module.exports = {
       },
       fontSize:{
         'custom_lg':'19px',
+        'custom_3xl':'32px',
         'custom_5xl':'50px',
         'custom_6xl':'64px',
       },
