@@ -8,7 +8,7 @@ import greenlinevector from "../assets/images/svg/faq/faqGreenLineVector.svg";
 import greenellipsevector from "../assets/images/svg/faq/faqGreenEllipsVector.svg";
 
 const Frequently = () => {
-  const [openAccordion, setOpenAccordion] = useState(null);
+  const [openAccordion, setOpenAccordion] = useState(0);
   const refs = useRef([]);
 
   const toggleAccordion = (index) => {
@@ -48,7 +48,7 @@ const Frequently = () => {
             <div
               className={`${
                 openAccordion === index
-                  ? "md:pl-[70.5px] sm:pl-[40px] pl-6 pt-6 pb-[23px]"
+                  ? " pt-6 pb-[23px]"
                   : ""
               } accordion-item py-[18.5px] border-solid border-r-[2px] border-b-[2px] border-black rounded-xl transition-all duration-300 ease-in-out md:px-6 px-5 shadow-accordianshadow`}
               key={index}
