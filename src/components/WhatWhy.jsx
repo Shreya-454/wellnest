@@ -7,15 +7,15 @@ const WhatWhy = () => {
   return (
     <section id="benefits" className="max-md:py-6 relative z-[1] bg-lightOrange">
       <img
-        src={orangeEllipse}
-        alt="orange"
+        src={orangeEllipse} 
+        alt="orange"  width={162} height={234}
         className="absolute top-0 max-lg:max-w-[66px] right-0 z-[-1]"
       />
       <div className="max-w-[1920px] mx-auto px-3  container">
         <div className="flex items-center max-md:px-4 md:flex-row flex-col -mx-3">
           <img
             src={whatImg}
-            alt="whatImg"
+            alt="whatImg" width={732} height={632}
             className="xl:w-[732px] lg:w-[500px] md:w-[360px] max-h-[632px]"
           />
           <div className="xl:pl-12 lg:ps-6 ps-3 max-md:mt-5 ">

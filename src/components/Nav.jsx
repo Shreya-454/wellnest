@@ -18,7 +18,7 @@ export const Nav = () => {
       <div className="container px-4 max-w-[1172px]">
         <div className="py-6 flex items-center justify-between">
           <a href="#">
-            <img src={navlogo} alt="logo" className="max-sm:w-[140px]" />
+            <img src={navlogo} alt="logo" className="max-sm:w-[140px]" width={188} height={35} />
           </a>
           <ul
             className={`flex gap-8 items-center mobileView  ${

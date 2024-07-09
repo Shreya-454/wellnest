@@ -9,12 +9,12 @@ const Footer = () => {
     <div className="xl:mt-[140px] lg:mt-24 md:mt-20 sm:mt-16 mt-12 bg-footerBg md:pt-[107px] sm:pt-20 pt-12 pb-4 relative">
       <img
         src={purplevector}
-        alt="purplevector"
+        alt="purplevector" width={184} height={50}
         className="absolute max-w-[184.8px] w-full top-6 pointer-events-none md:block hidden"
       />
       <img
         src={purplevector}
-        alt="purplevector"
+        alt="purplevector" width={184} height={50}
         className="absolute bottom-[90.37px] right-0 w-full max-w-[184.8px] pointer-events-none md:block hidden"
       />
       <div className="container xl:max-w-[1164px] px-4 mx-auto md:pb-[55px] sm:pb-12 pb-10">
@@ -23,7 +23,7 @@ const Footer = () => {
             <Link aria-label="footer logo" to="/" rel="noopener noreferrer">
               <img
                 src={footerlogo}
-                alt="footerlogo"
+                alt="footerlogo" width={187} height={34}
                 className="w-full md:max-w-[187.25px] sm:max-w-[150px] max-w-[120px] mb-[10px]"
               />
             </Link>

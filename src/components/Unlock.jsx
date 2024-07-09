@@ -7,7 +7,7 @@ const Unlock = () => {
   return (
     <section id='workshops' className="xl:py-32 lg:py-28 md:py-20 z-[1] relative sm:py-16 py-12 xl:my-3">
       <img
-        src={greenEllipse}
+        src={greenEllipse} width={113} height={245}
         alt="green"
         className="absolute bottom-[18%] pointer-events-none left-0 z-[-1] max-md:max-w-[66px]"
       />

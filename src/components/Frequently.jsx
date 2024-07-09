@@ -19,22 +19,22 @@ const Frequently = () => {
     <div id="faq" className="xl:pt-[140px] lg:pt-24 md:pt-20 sm:pt-16 pt-12 relative overflow-x-clip">
       <img
         src={linevector}
-        alt="linevector"
+        alt="linevector" width={184} height={51}
         className="w-full lg:max-w-[184px] max-w-[120px] absolute left-0 pointer-events-none max-xl:opacity-50 lg:block hidden"
       />
       <img
         src={ellipsvector}
-        alt="ellipsvector"
+        alt="ellipsvector" width={150} height={252}
         className="absolute right-0 top-0 pointer-events-none w-full max-w-[150px] h-[252px] max-xl:opacity-50 lg:block hidden"
       />
       <img
         src={greenlinevector}
-        alt="greenlinevector"
+        alt="greenlinevector" width={184} height={50}
         className="w-full lg:max-w-[184px] max-w-[120px] absolute xl:right-0 -right-[7%] bottom-[6%] max-xl:opacity-50 lg:block hidden -z-[1]"
       />
       <img
         src={greenellipsevector}
-        alt="greenellipsevector"
+        alt="greenellipsevector"  width={120} height={249}
         className="absolute w-full max-w-[120px] left-0 h-[249px] bottom-0 max-xl:opacity-50 lg:block hidden pointer-events-none"
       />
       <div className="container xl:max-w-[1164px] mx-auto px-4 relative z-10">
