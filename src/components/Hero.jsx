@@ -7,7 +7,7 @@ import orangeEllipse from '../assets/images/svg/header/orangeEllipse.svg'
 import Nav from './Nav'
 const Hero = () => {
   return (
-    <div className='lg:h-[810px] relative bg-[url(./assets/images/webp/headerImages/heroBgImg.webp)] bg-cover bg-center bg-no-repeat bg-lightOrange'>
+    <div className='lg:h-[810px] relative sm:bg-[url(./assets/images/webp/headerImages/heroBgImg.webp)] bg-cover bg-center bg-no-repeat bg-lightOrange'>
       <Nav/>
       <div className="container mx-auto px-4 xl:max-w-[1320px] max-w-[1164px] pt-7 sm:pt-10 md:pt-16 lg:pt-20">
         <h1 className='md:text-custom_6xl sm:text-5xl text-4xl font-poppins font-bold text-black text-center leading-120 mb-3 md:mb-4'>Welcome To <span className='text-purple leading-120'>Wellnest</span></h1>
