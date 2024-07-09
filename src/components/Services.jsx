@@ -11,7 +11,7 @@ const Services = () => {
 <div className="flex flex-wrap flex-row -mx-3">
 {ServiceList.map((item,i)=>(
   <div className="w-1/3 px-3">
-    <ServiceCards icon={item.icon} title={item.title} discription={item.discription} name={item.btnname} color={`${i === 1? "bg-skyBlue":"bg-lightGreen"} ${i === 2? "!bg-darkGreen":"bg-lightGreen"}`} space={`${i > 0 ?"mb-6":"mb-[52px]"}`} />
+    <ServiceCards icon={item.icon} title={item.title} discription={item.discription} name={item.btnname} color={`${i === 1? "bg-skyBlue":"bg-lightGreen"} ${i === 2? "!bg-darkGreen !pointer-events-none":"bg-lightGreen"}`} space={`${i > 0 ?"mb-6":"mb-[52px]"}`} class={`${i < 2 ? "hidden ":""}`} />
   </div>
 ))}
 </div>

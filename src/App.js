@@ -4,6 +4,7 @@ import Frequently from "./components/Frequently";
 import Meet from "./components/Meet";
 import WhatWhy from './components/WhatWhy';
 import VisitProfile from './components/VisitProfile';
+import Hero from "./components/Hero";
 
 function App() {
   return (
