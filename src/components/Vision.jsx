@@ -4,10 +4,14 @@ import { CommonHeading, CommonPara } from "./common/Headings";
 
 const Vision = () => {
   return (
-    <div className=" xl:mt-36 lg:mt-28 md:mt-20 sm:mt-16 mt-12 xl:pt-1.5">
+    <section
+      className=" xl:mt-36 lg:mt-28 md:mt-20 sm:mt-16 mt-12 xl:pt-1.5"
+    >
       <img
         src={visionImg}
-        alt="vision" width={1440} height={603}
+        alt="vision"
+        width={1440}
+        height={603}
         className="max-w-[1920px] max-sm:object-cover max-sm:h-[260px] w-full mx-auto"
       />
       <CommonHeading
@@ -27,7 +31,7 @@ const Vision = () => {
       <div className="flex lg:mt-10 md:mt-8 mt-3 justify-center">
         <Button btnName="Book A Free Consultation Now" />
       </div>
-    </div>
+    </section>
   );
 }
 

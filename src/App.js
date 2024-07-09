@@ -9,6 +9,7 @@ import Services from "./components/Services";
 import Unlock from './components/Unlock';
 import Key from './components/Key';
 import Vision from "./components/Vision";
+import BackToTop from "./components/BackToTop";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
    <WhatWhy/>
       <Frequently/>
       <VisitProfile/>
- <Footer/>
+      <Footer />
+      <BackToTop/>
     </div>
   );
 }

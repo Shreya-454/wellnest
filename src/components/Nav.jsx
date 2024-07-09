@@ -27,9 +27,10 @@ export const Nav = () => {
           >
             {NavLinkList.map((data, index) => (
               <li key={index}>
-                <Link  onClick={nav} to={data.path} className="navLink">
+                <a href={data.path}
+                  onClick={nav} className="navLink">
                   {data.link}
-                </Link>
+                </a>
               </li>
             ))}
             <li>
