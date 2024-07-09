@@ -9,11 +9,11 @@ const Meet = () => {
         <img src={meetEllipse} alt="ellipse" className='absolute top-0  object-cover w-full z-[-1]' />
       <div className='max-w-[1440px] mx-auto xl:pt-[365px] lg:pt-56 sm:pt-44 pt-24'>
         <div className="container max-w-[1322px] px-4 xl:-translate-x-[7%]">
-      <div className="flex flex-row flex-wrap -mx-3 items-center">
+      <div className="flex flex-row flex-wrap -mx-3">
       <div className="lg:w-1/2 w-full flex justify-center px-3">
       <img src={meetImg} alt="meetImg" className='lg:max-w-[611px] max-w-[480px] w-full' width={611} height={714.56}/>
       </div>
-      <div className="lg:w-1/2 w-full px-3 flex justify-center lg:justify-end">
+      <div className="lg:w-1/2 w-full px-3 flex justify-center lg:justify-end pt-3">
       <div className='lg:max-w-[558px] w-full'>
         <CommonHeading heading="Meet " purpleHeading=" Mariam" className=" after:absolute relative after:w-[55px] after:h-[3px] after:bg-purple after:left-0 after:-bottom-2.5 mb-5 md:mb-7 max-lg:max-w-[324px] max-md:max-w-[243px] max-sm:max-w-[203px] mx-auto max-lg:text-center "/>
         <p className='font-medium font-poppins sm:text-xl text-base leading-120 text-black text-opacity-70 md:mb-4 sm:mb-3 mb-2 max-lg:text-center'>Hello There, I’m Mariam, Your New Health Coach!</p>
