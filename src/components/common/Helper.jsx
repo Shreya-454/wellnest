@@ -12,9 +12,9 @@ import { Instagrame, Twitter, Facebook, Youtube, Music } from "../common/Icon";
 export const NavLinkList = [
   { link: "About Wellnest", path: "#about" },
   { link: "Our Services", path: "#services" },
-  { link: "Benefits", path: "/benefits" },
-  { link: "FAQs", path: "/faq" },
-  { link: "Upcoming Workshops", path: "/workshops" },
+  { link: "Benefits", path: "#benefits" },
+  { link: "FAQs", path: "#faq" },
+  { link: "Upcoming Workshops", path: "#workshops" },
 ];
 export const HeroImageList = [
   {

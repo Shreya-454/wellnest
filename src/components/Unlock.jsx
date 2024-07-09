@@ -5,7 +5,7 @@ import greenEllipse from "../assets/images/svg/unlock/greenEllipse.svg";
 
 const Unlock = () => {
   return (
-    <div className="xl:py-32 lg:py-28 md:py-20 z-[1] relative sm:py-16 py-12 xl:my-3">
+    <section id='workshops' className="xl:py-32 lg:py-28 md:py-20 z-[1] relative sm:py-16 py-12 xl:my-3">
       <img
         src={greenEllipse}
         alt="green"
@@ -60,7 +60,7 @@ const Unlock = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
