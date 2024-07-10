@@ -18,14 +18,16 @@ const WhatWhy = () => {
       />
       <div className="max-w-[1920px] mx-auto px-3  container">
         <div className="flex items-center max-md:px-4 md:flex-row flex-col -mx-3">
-          <img
-            src={whatImg}
-            alt="whatImg"
-            width={732}
-            height={632}
-            className="xl:w-[732px] lg:w-[500px] md:w-[360px] max-h-[632px]"
-          />
-          <div className="xl:pl-12 lg:ps-6 ps-3 max-md:mt-4 ">
+          <div className="2xl:w-1/2">
+            <img
+              src={whatImg}
+              alt="whatImg"
+              width={732}
+              height={632}
+              className="xl:w-[732px] 2xl:w-full lg:w-[500px] md:w-[360px] max-h-[632px]"
+            />
+          </div>
+          <div className="xl:pl-12 2xl:w-1/2 lg:ps-6 ps-3 max-md:mt-4 ">
             <CommonHeading
               heading="Why I Do"
               purpleHeading=" What I Do?"
