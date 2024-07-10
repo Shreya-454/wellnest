@@ -11,7 +11,7 @@ const Meet = () => {
         <div className="container max-w-[1322px] px-4 xl:-translate-x-[7%]">
       <div className="flex flex-row flex-wrap -mx-3">
       <div className="lg:w-1/2 w-full flex justify-center px-3">
-      <img src={meetImg} alt="meetImg" className='lg:max-w-[611px] max-w-[480px] w-full' width={611} height={714.56}/>
+      <img src={meetImg} alt="meetImg" className='lg:max-w-[611px] max-w-[480px] w-full rounded-3xl' width={611} height={714.56}/>
       </div>
       <div className="lg:w-1/2 w-full px-3 flex justify-center lg:justify-end pt-3">
       <div className='lg:max-w-[558px] w-full'>
