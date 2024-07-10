@@ -9,22 +9,22 @@ const Unlock = () => {
       <img
         src={greenEllipse} width={113} height={245}
         alt="green"
-        className="absolute bottom-[18%] pointer-events-none left-0 z-[-1] max-md:max-w-[66px]"
+        className="absolute bottom-[18%] pointer-events-none left-0 z-[-1] max-lg:max-w-[66px]"
       />
       <div className="container max-w-[1164px] px-4 mx-auto">
-        <div className="flex lg:flex-row flex-col justify-between">
+        <div className="flex lg:flex-row lg:gap-4 flex-col justify-between">
           <CommonHeading
             heading="Unlock Your Potential With  "
             purpleHeading="Inspiring Events"
-            className="lg:max-w-[388px] max-w-[664px] max-lg:mx-auto lg:text-start text-center"
+            className="lg:max-w-[388px] xl:h-[174px] max-w-[664px] max-lg:mx-auto lg:text-start text-center"
           />
           <div>
             {UnlockData.map((obj, i) => (
               <div
                 key={i}
-                className="max-w-[594px] max-lg:mx-auto mb-6 border-b border-lightBlack2 shadow-borderShadow "
+                className="max-w-[594px] max-lg:mx-auto lg:mb-6 mb-3 border-b border-lightBlack2 shadow-borderShadow "
               >
-                <div className="flex sm:flex-row pt-6 flex-col md:gap-6 gap-3">
+                <div className="flex sm:flex-row lg:pt-6 mt-4 flex-col md:gap-6 gap-3">
                   <div className="mb-0">
                     <p className="lg:text-custom_5xl sm:text-start text-center md:text-4xl sm:text-3xl text-2xl text-black font-semibold !leading-78 font-poppins">
                       {obj.dates}
@@ -48,7 +48,7 @@ const Unlock = () => {
                       </p>
                       <a
                         href=""
-                        className="font-bold sm:text-base text-sm text-purple !leading-150"
+                        className="font-bold sm:text-base hover:text-black duration-300 text-sm text-purple !leading-150"
                       >
                         Register Now
                       </a>
