@@ -45,17 +45,17 @@ const Frequently = () => {
         />
         <div className="flex flex-col sm:gap-5 gap-3 max-w-[768px] md:w-10/12 w-full mx-auto">
           {accordionData.map((item, index) => (
-            <div
+            <div onClick={() => toggleAccordion(index)}
               className={`${
                 openAccordion === index
                   ? " pt-6 pb-[23px]"
                   : ""
-              } ${index === 1 ? "sm:py-[23.5px] py-2":" py-4 sm:py-[26px]"} accordion-item border-solid border-r-2px border-b-2 border-black rounded-xl transition-all duration-300 ease-in-out md:px-6 px-5 shadow-accordianshadow`}
+              } ${index === 1 ? "sm:py-[23.5px] py-2":" py-4 sm:py-[26px]"} cursor-pointer accordion-item border-solid border-r-2px border-b-2 border-black rounded-xl transition-all duration-300 ease-in-out md:px-6 px-5 shadow-accordianshadow`}
               key={index}
             >
               <div
                 className="accordion-title flex justify-between sm:items-center items-start cursor-pointer max-sm:gap-[0.2px]"
-                onClick={() => toggleAccordion(index)}
+                
               >
                 <p
                   className={`${

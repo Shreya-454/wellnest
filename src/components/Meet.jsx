@@ -12,7 +12,7 @@ const Meet = () => {
       <div className="flex flex-row flex-wrap -mx-3">
       <div className="lg:w-1/2 w-full flex justify-center px-3">
       <div className='h-auto max-lg:mb-7 max-sm:mb-5'>
-        <div className=' after:inset-0 after:absolute relative after:border-[12px] after:border-purple after:z-[-1] after:rounded-3xl rounded-3xl object-cover'><img src={meetImg} alt="meetImg" className='lg:max-w-[569.58px] max-w-[380px] -translate-y-10 -translate-x-10 w-full shadow-keyImgShadow rounded-3xl ' width={569.58} height={673.14}/></div>
+        <div className=' after:inset-0 after:absolute relative after:border-[12px] after:border-purple after:z-[-1] after:rounded-3xl rounded-3xl object-cover'><img src={meetImg} alt="meetImg" className='lg:max-w-[569.58px] max-w-[380px] sm:-translate-y-10 sm:-translate-x-10 w-full shadow-keyImgShadow rounded-3xl ' width={569.58} height={673.14}/></div>
       </div>
       </div>
       <div className="lg:w-1/2 w-full px-3 flex justify-center lg:justify-end pt-3">
@@ -26,7 +26,7 @@ const Meet = () => {
         <CommonHeading heading="02" className="mb-2 max-lg:text-center"/>
         <CommonPara text="Books Published" className="mb-2 max-lg:text-center"/>
         </div>
-        <div className="w-1/3 after:w-[1px] after:h-[88px] after:absolute relative after:bg-orange after:right-0 after:top-1 lg:pl-9">
+        <div className="w-1/3 after:w-[1px] after:h-[88px] after:absolute max-sm:px-1 relative after:bg-orange after:right-0 after:top-1 lg:pl-9">
         <CommonHeading heading="4.5" className="mb-2 max-lg:text-center"/>
         <CommonPara text="User Reviews" className="mb-2 max-lg:text-center"/>
         </div>
