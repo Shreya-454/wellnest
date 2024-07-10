@@ -188,19 +188,19 @@ export const footerLinkList = [
     title: "Policies",
     links: [
       {
-        link: "User Agreement",
+        link: "User Agreement",path: "#"
       },
       {
-        link: "Terms & Conditions",
+        link: "Terms & Conditions",path: "#"
       },
       {
-        link: "Privacy Policy",
+        link: "Privacy Policy",path: "#"
       },
       {
-        link: "Legal Policy",
+        link: "Legal Policy",path: "#"
       },
       {
-        link: "What’s New",
+        link: "What’s New",path: "#"
       },
     ],
   },
