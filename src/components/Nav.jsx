@@ -21,7 +21,7 @@ export const Nav = () => {
             <img src={navlogo} alt="logo" className="max-sm:w-[140px]" width={188} height={35} />
           </a>
           <ul
-            className={`flex gap-8 items-center mobileView  ${
+            className={`flex xl:gap-8 gap-5 items-center mobileView  ${
               show ? "right-[-100%]" : "right-0"
             }`}
           >
