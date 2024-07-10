@@ -17,7 +17,7 @@ const Footer = () => {
         alt="purplevector" width={184} height={50}
         className="absolute bottom-[90.37px] right-0 w-full max-w-[184.8px] pointer-events-none md:block hidden"
       />
-      <div className="container xl:max-w-[1164px] xl:pt-1 px-4 mx-auto md:pb-[45px] sm:pb-12 pb-10">
+      <div className="container max-w-[1164px] xl:pt-1 px-4 mx-auto md:pb-[45px] sm:pb-12 pb-10">
         <div className="flex flex-row flex-wrap items-center justify-between">
           <div className="lg:w-5/12 w-full">
             <Link aria-label="footer logo" to="/" rel="noopener noreferrer">
@@ -27,7 +27,7 @@ const Footer = () => {
                 className="w-full md:max-w-[187.25px] sm:max-w-[150px] max-w-[120px] mb-[10px]"
               />
             </Link>
-            <p className="lg:max-w-[473px] md:max-w-[548px] font-poppins sm:text-base text-sm font-normal leading-normal text-black opacity-80 md:mb-[21px] mb-4">
+            <p className="lg:max-w-[473px] lg:max-w-[548px] font-poppins sm:text-base text-sm font-normal leading-normal text-black opacity-80 md:mb-[21px] mb-4">
               At WellNest, we are dedicated to fostering personal and
               professional growth through holistic coaching and consultancy
               services.
@@ -47,7 +47,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="lg:w-5/12 w-full flex lg:justify-center lg:pt-0 pt-9">
-            <div className="flex md:gap-[66px] gap-[50px]">
+            <div className="flex md:gap-[66px] sm:gap-[50px] max-sm:justify-between w-full">
               {footerLinkList.map((obj, id) => (
                 <ul key={id} className="flex flex-col">
                   <li className="font-poppins md:text-base text-sm font-medium text-black mb-3 sm:mb-[14px]">
