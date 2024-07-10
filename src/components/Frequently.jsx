@@ -50,7 +50,7 @@ const Frequently = () => {
                 openAccordion === index
                   ? " pt-6 pb-[23px]"
                   : ""
-              } ${index === 1 ? "sm:py-4 py-2":" py-4 sm:py-[23px]"} accordion-item border-solid border-r-[2px] border-b-[2px] border-black rounded-xl transition-all duration-300 ease-in-out md:px-6 px-5 shadow-accordianshadow`}
+              } ${index === 1 ? "sm:py-[21px] py-2":" py-4 sm:py-[26px]"} accordion-item border-solid border-r-[2px] border-b-[2px] border-black rounded-xl transition-all duration-300 ease-in-out md:px-6 px-5 shadow-accordianshadow`}
               key={index}
             >
               <div
