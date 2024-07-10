@@ -24,18 +24,18 @@ const Frequently = () => {
       />
       <img
         src={ellipsvector}
-        alt="ellipsvector" width={150} height={252}
-        className="absolute right-0 top-0 pointer-events-none w-full max-w-[150px] h-[252px] max-xl:opacity-50 lg:block hidden"
+        alt="ellipsvector" width={231.18} height={252}
+        className="absolute -right-11 top-0 pointer-events-none w-full max-w-[231px] h-[252px]  lg:block hidden"
       />
       <img
         src={greenlinevector}
         alt="greenlinevector" width={184} height={50}
-        className="w-full lg:max-w-[184px] max-w-[120px] absolute xl:right-0 -right-[7%] bottom-[6%] max-xl:opacity-50 lg:block hidden -z-[1]"
+        className="w-full lg:max-w-[184px] max-w-[120px] absolute xl:right-0 -right-[7%] bottom-[8%] max-xl:opacity-50 lg:block hidden -z-[1]"
       />
       <img
         src={greenellipsevector}
-        alt="greenellipsevector"  width={120} height={249}
-        className="absolute w-full max-w-[120px] left-0 h-[249px] bottom-0 max-xl:opacity-50 lg:block hidden pointer-events-none"
+        alt="greenellipsevector"  width={229} height={249}
+        className="absolute w-full max-w-[229px] -left-11 h-[249px] bottom-0 lg:block hidden pointer-events-none"
       />
       <div className="container max-w-[1164px] mx-auto px-4 relative z-10">
         <CommonHeading
@@ -50,7 +50,7 @@ const Frequently = () => {
                 openAccordion === index
                   ? " pt-6 pb-[23px]"
                   : ""
-              } ${index === 1 ? "sm:py-[21px] py-2":" py-4 sm:py-[26px]"} accordion-item border-solid border-r-2px border-b-2 border-black rounded-xl transition-all duration-300 ease-in-out md:px-6 px-5 shadow-accordianshadow`}
+              } ${index === 1 ? "sm:py-[23.5px] py-2":" py-4 sm:py-[26px]"} accordion-item border-solid border-r-2px border-b-2 border-black rounded-xl transition-all duration-300 ease-in-out md:px-6 px-5 shadow-accordianshadow`}
               key={index}
             >
               <div
@@ -59,7 +59,7 @@ const Frequently = () => {
               >
                 <p
                   className={`${
-                    openAccordion === index ? "pb-2 sm:pb-3.5" : ""
+                    openAccordion === index ? "mb-2 sm:mb-3.5" : ""
                   } font-poppins font-semibold md:text-base text-sm !leading-120 text-offBlack flex gap-1 max-w-[555px]`}
                 >
                   {item.titleno} <span>{item.title}</span>
@@ -67,7 +67,7 @@ const Frequently = () => {
                 <div className="sm:pt-0 pt-2">
                   <div
                     className={`${
-                      openAccordion === index ? "rotate-180" : ""
+                      openAccordion === index ? "rotate-180 mb-2 sm:mb-3.5" : ""
                     } transition-transform duration-300 ease-linear`}
                   >
                     <FaqArrow className="w-4 h-[9px]" />

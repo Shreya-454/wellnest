@@ -45,6 +45,7 @@ module.exports = {
       borderShadow:'0px 1px 23px 0px #A18EE814',
       keyImgShadow:' 0px 36.25px 25.89px 0px #040B1426'
 
+
       },
   container:{
     center:true,

@@ -7,11 +7,13 @@ const Meet = () => {
   return (
     <div className=' relative' id='about'>
         <img src={meetEllipse} alt="ellipse" className='absolute top-0  object-cover w-full z-[-1]' />
-      <div className='max-w-[1440px] mx-auto xl:pt-[365px] lg:pt-56 sm:pt-44 pt-24'>
-        <div className="container max-w-[1322px] px-4 xl:-translate-x-[7%]">
+      <div className='max-w-[1440px] mx-auto xl:pt-[365px] lg:pt-56 sm:pt-32 pt-24'>
+        <div className="container max-w-[1322px] px-4 xl:-translate-x-[4%]">
       <div className="flex flex-row flex-wrap -mx-3">
       <div className="lg:w-1/2 w-full flex justify-center px-3">
-      <img src={meetImg} alt="meetImg" className='lg:max-w-[611px] max-w-[480px] w-full rounded-3xl' width={611} height={714.56}/>
+      <div className='h-auto max-lg:mb-7 max-sm:mb-5'>
+        <div className=' after:inset-0 after:absolute relative after:border-[12px] after:border-purple after:z-[-1] after:rounded-3xl rounded-3xl object-cover'><img src={meetImg} alt="meetImg" className='lg:max-w-[569.58px] max-w-[380px] -translate-y-10 -translate-x-10 w-full shadow-keyImgShadow rounded-3xl ' width={569.58} height={673.14}/></div>
+      </div>
       </div>
       <div className="lg:w-1/2 w-full px-3 flex justify-center lg:justify-end pt-3">
       <div className='lg:max-w-[558px] w-full'>
@@ -38,8 +40,8 @@ const Meet = () => {
         <img src={qrImage} alt="QRImg" className='max-w-[130px] max-sm:-translate-y-20' height={130} width={130} />
         <div className='max-sm:-mt-20'>
         <h3 className='font-poppins text-xl sm:text-2xl font-medium !leading-120 text-white mb-[7px] max-sm:text-center'>Coach Mariam.</h3>
-        <p className='font-inter text-base sm:text-custom_lg tracking-[0.01em] text-white text-opacity-90 leading-180 max-sm:text-center'>Mail : coachmariam@gmail.com</p>
-        <p className='font-inter text-base sm:text-custom_lg tracking-[0.01em] text-white text-opacity-90 leading-180 max-sm:text-center'>Phone : (+1) 987 643 4000</p>
+        <a href='mailto:coachmariam@gmail.com' className='font-inter text-base sm:text-custom_lg tracking-[0.01em] text-white text-opacity-90 leading-180 max-sm:text-center'>Mail : coachmariam@gmail.com</a>
+        <a href='tel:(+1) 987 643 4000' className='font-inter text-base sm:text-custom_lg tracking-[0.01em] text-white text-opacity-90 leading-180 max-sm:text-center'>Phone : (+1) 987 643 4000</a>
       </div>
          </div>
         </div>
