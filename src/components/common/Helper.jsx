@@ -177,11 +177,11 @@ export const footerLinkList = [
   {
     title: "Use Cases",
     links: [
-      { link: "About Wellnest", path: "/about" },
-      { link: "Our Services", path: "/services" },
-      { link: "Benefits", path: "/benefits" },
-      { link: "FAQs", path: "/faq" },
-      { link: "Upcoming Workshops", path: "/workshops" },
+      { link: "About Wellnest", path: "#about" },
+      { link: "Our Services", path: "#services" },
+      { link: "Benefits", path: "#benefits" },
+      { link: "FAQs", path: "#faq" },
+      { link: "Upcoming Workshops", path: "#workshops" },
     ],
   },
   {

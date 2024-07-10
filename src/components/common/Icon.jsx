@@ -15,6 +15,7 @@ export const FaqArrow = () => {
     </svg>
   );
 };
+
 // =========== VISIT PROFILE =================
 export const LinkdinVisitProfile = () => {
   return (
@@ -44,6 +45,7 @@ export const LinkdinVisitProfile = () => {
     </svg>
   );
 };
+
 // ============== FOOTER ======================
 export const Instagrame = () => {
   return (

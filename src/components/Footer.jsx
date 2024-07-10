@@ -50,17 +50,16 @@ const Footer = () => {
             <div className="flex md:gap-[66px] sm:gap-[50px] max-sm:justify-between w-full">
               {footerLinkList.map((obj, id) => (
                 <ul key={id} className="flex flex-col">
-                  <li className="font-poppins md:text-base text-sm font-medium text-black mb-3 sm:mb-[14px]">
+                  <li className="font-poppins md:text-base text-sm font-medium text-black mb-3 sm:mb-3.5">
                     {obj.title}
                   </li>
                   {obj.links.map((data, index) => (
-                    <li key={index} className="mb-[10px] sm:mb-3">
-                      <Link
-                        to={data.path}
-                        className="font-poppins font-normal md:text-base text-sm text-black opacity-70 hover:opacity-100 transition-opacity ease-linear duration-300 text-nowrap"
-                      >
-                        {data.link}
-                      </Link>
+                    <li key={index} className="mb-2.5 sm:mb-3">
+                      <a href={data.path}
+                          className="font-poppins font-normal md:text-base text-sm text-black opacity-70 hover:opacity-100 transition-opacity ease-linear duration-300 text-nowrap"
+                        >
+                          {data.link}
+                      </a>
                     </li>
                   ))}
                 </ul>
