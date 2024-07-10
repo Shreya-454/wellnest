@@ -5,7 +5,7 @@ import orangeEllipse from "../assets/images/svg/whatWhy/orangeEllipse.svg"
 
 const WhatWhy = () => {
   return (
-    <section id="benefits" className="max-md:py-6 relative z-[1] bg-lightOrange">
+    <section id="benefits" className="max-md:py-6 -mt-6 relative z-[1] bg-lightOrange">
       <img
         src={orangeEllipse} 
         alt="orange"  width={162} height={234}

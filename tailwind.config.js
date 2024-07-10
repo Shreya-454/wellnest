@@ -53,7 +53,7 @@ module.exports = {
   screens:{
     custom_lg: "1055px",
     'custom_sm': '400px',
-    custom_xs:'360px'
+    custom_xs:'370px'
   }
   
 }

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="xl:mt-[140px] lg:mt-24 md:mt-20 sm:mt-16 mt-12 bg-footerBg md:pt-[107px] sm:pt-20 pt-12 pb-4 relative">
+    <div className="xl:mt-[140px] lg:mt-24 md:mt-20 sm:mt-16 mt-12 bg-footerBg md:pt-24 sm:pt-20 pt-12 pb-4 relative">
       <img
         src={purplevector}
         alt="purplevector" width={184} height={50}
@@ -17,8 +17,8 @@ const Footer = () => {
         alt="purplevector" width={184} height={50}
         className="absolute bottom-[90.37px] right-0 w-full max-w-[184.8px] pointer-events-none md:block hidden"
       />
-      <div className="container xl:max-w-[1164px] px-4 mx-auto md:pb-[55px] sm:pb-12 pb-10">
-        <div className="flex flex-row flex-wrap justify-between">
+      <div className="container xl:max-w-[1164px] xl:pt-1 px-4 mx-auto md:pb-[45px] sm:pb-12 pb-10">
+        <div className="flex flex-row flex-wrap items-center justify-between">
           <div className="lg:w-5/12 w-full">
             <Link aria-label="footer logo" to="/" rel="noopener noreferrer">
               <img
