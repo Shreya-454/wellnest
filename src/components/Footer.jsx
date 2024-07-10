@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="xl:mt-[140px] lg:mt-24 md:mt-20 sm:mt-16 mt-12 bg-footerBg lg:pt-24 md:pt-20 sm:pt-16 pt-12 pb-4 relative">
+    <div className="xl:mt-[140px] lg:mt-24 md:mt-20 sm:mt-16 mt-12 bg-footerBg lg:pt-24 md:pt-20 sm:pt-16 pt-12 md:pb-4 relative">
       <img
         src={purplevector}
         alt="purplevector"
@@ -24,15 +24,15 @@ const Footer = () => {
       <div className="container max-w-[1164px] xl:pt-1 px-4 mx-auto md:pb-[45px] sm:pb-12 pb-10">
         <div className="flex flex-row flex-wrap items-center justify-between">
           <div className="lg:w-5/12 w-full">
-            <Link aria-label="footer logo" to="/" rel="noopener noreferrer">
-              <img
-                src={footerlogo}
-                alt="footerlogo"
-                width={187}
-                height={34}
-                className="w-full md:max-w-[187.25px] sm:max-w-[150px] max-w-[120px] mb-[10px]"
-              />
-            </Link>
+            <a href="#" aria-label="footer logo" rel="noopener noreferrer">
+                <img
+                  src={footerlogo}
+                  alt="footerlogo"
+                  width={187}
+                  height={34}
+                  className="w-full md:max-w-[187.25px] sm:max-w-[150px] max-w-[120px] mb-[10px]"
+                />
+            </a>
             <p className="lg:max-w-[473px] font-poppins sm:text-base text-sm font-normal leading-normal text-black opacity-80 md:mb-[21px] mb-4">
               At WellNest, we are dedicated to fostering personal and
               professional growth through holistic coaching and consultancy
@@ -56,11 +56,11 @@ const Footer = () => {
             <div className="flex md:gap-[66px] sm:gap-[50px] max-sm:justify-between w-full">
               {footerLinkList.map((obj, id) => (
                 <ul key={id} className="flex flex-col">
-                  <li className="font-poppins md:text-base text-sm font-medium text-black mb-3 sm:mb-3.5">
+                  <li className="font-poppins md:text-base text-sm font-medium text-black mb-2.5 sm:mb-3.5">
                     {obj.title}
                   </li>
                   {obj.links.map((data, index) => (
-                    <li key={index} className="mb-2.5 sm:mb-3">
+                    <li key={index} className="mb-2 sm:mb-3">
                       <a
                         href={data.path}
                         className="font-poppins footerLinkHover font-normal md:text-base text-sm text-black opacity-70 hover:opacity-100 transition-opacity ease-linear duration-300 text-nowrap"
