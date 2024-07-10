@@ -24,7 +24,7 @@ const WhatWhy = () => {
               alt="whatImg"
               width={732}
               height={632}
-              className="xl:w-[732px] 2xl:w-full lg:w-[500px] md:w-[360px] max-h-[632px]"
+              className="xl:w-[732px] 2xl:w-full lg:w-[500px] md:w-[360px] max-h-[632px] object-cover"
             />
           </div>
           <div className="xl:pl-12 2xl:w-1/2 lg:ps-6 ps-3 max-md:mt-4 ">
