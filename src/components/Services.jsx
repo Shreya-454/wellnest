@@ -1,11 +1,12 @@
 import React from 'react'
 import { CommonHeading, } from './common/Headings'
 import { ServiceList } from './common/Helper'
+import greenVector from '../assets/images/svg/services/servicegreenvector.svg'
 import ServiceCards from './ServiceCards'
 
 const Services = () => {
   return (
-    <div id='services' className='xl:pt-32 lg:pt-28 md:pt-20 sm:pt-16 pt-12 xl:mb-3'>
+    <div id='services' className='xl:pt-32 lg:pt-28 md:pt-20 sm:pt-16 pt-12 xl:mb-3 relative'>
       <div className="container max-w-[1172px] px-4 mx-auto">
 <CommonHeading heading="Wellnest" purpleHeading=" Services" className="text-center md:mb-10 sm:mb-7 mb-5"/>
 <div className="flex flex-wrap flex-row xl:-mx-3 -mx-2 justify-center">
@@ -16,6 +17,7 @@ const Services = () => {
 ))}
 </div>
       </div>
+      <img src={greenVector} alt="greenVector" className='absolute top-[10%] right-0' />
     </div>
   )
 }
