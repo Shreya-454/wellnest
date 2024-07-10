@@ -15,7 +15,7 @@ const Meet = () => {
         <div className=' after:inset-0 after:absolute relative after:border-[12px] after:border-purple after:z-[-1] after:rounded-3xl rounded-3xl object-cover'><img src={meetImg} alt="meetImg" className='lg:max-w-[569.58px] max-w-[380px] sm:-translate-y-10 sm:-translate-x-10 w-full shadow-keyImgShadow rounded-3xl ' width={569.58} height={673.14}/></div>
       </div>
       </div>
-      <div className="lg:w-1/2 w-full px-3 flex justify-center lg:justify-end -mt-7">
+      <div className="lg:w-1/2 w-full px-3 flex justify-center lg:justify-end lg:-mt-7">
       <div className='lg:max-w-[558px] w-full'>
         <CommonHeading heading="Meet " purpleHeading=" Mariam" className=" after:absolute relative after:w-[55px] after:h-[3px] after:bg-purple after:left-0 after:-bottom-2.5 mb-5 md:mb-7 max-lg:max-w-[324px] max-md:max-w-[243px] max-sm:max-w-[203px] mx-auto max-lg:text-center "/>
         <p className='font-medium font-poppins sm:text-xl text-base leading-120 text-black text-opacity-70 md:mb-4 sm:mb-3 mb-2 max-lg:text-center'>Hello There, I’m Mariam, Your New Health Coach!</p>
@@ -41,7 +41,7 @@ const Meet = () => {
         <div className='max-sm:-mt-20'>
         <h3 className='font-poppins text-xl sm:text-2xl font-medium !leading-120 text-white mb-[7px] max-sm:text-center'>Coach Mariam.</h3>
         <a href='mailto:coachmariam@gmail.com' className='font-inter text-base sm:text-custom_lg tracking-[0.01em] text-white text-opacity-90 leading-180 max-sm:text-center'>Mail : coachmariam@gmail.com</a>
-        <a href='tel:(+1) 987 643 4000' className='font-inter text-base sm:text-custom_lg tracking-[0.01em] text-white text-opacity-90 leading-180 max-sm:text-center'>Phone : (+1) 987 643 4000</a>
+        <a href='tel:(+1) 987 643 4000' className='font-inter text-base sm:text-custom_lg tracking-[0.01em] text-white text-opacity-90 leading-180 max-sm:text-center block'> Phone : (+1) 987 643 4000</a>
       </div>
          </div>
         </div>
