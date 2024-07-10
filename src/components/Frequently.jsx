@@ -37,20 +37,20 @@ const Frequently = () => {
         alt="greenellipsevector"  width={120} height={249}
         className="absolute w-full max-w-[120px] left-0 h-[249px] bottom-0 max-xl:opacity-50 lg:block hidden pointer-events-none"
       />
-      <div className="container xl:max-w-[1164px] mx-auto px-4 relative z-10">
+      <div className="container max-w-[1164px] mx-auto px-4 relative z-10">
         <CommonHeading
           className="capitalize text-center mb-10"
           heading="Frequently Asked "
           purpleHeading="Questions"
         />
-        <div className="flex flex-col sm:gap-5 gap-[18px] xl:max-w-[768px] md:w-10/12 w-full mx-auto">
+        <div className="flex flex-col sm:gap-5 gap-[18px] max-w-[768px] md:w-10/12 w-full mx-auto">
           {accordionData.map((item, index) => (
             <div
               className={`${
                 openAccordion === index
                   ? " pt-6 pb-[23px]"
                   : ""
-              } accordion-item py-[18.5px] border-solid border-r-[2px] border-b-[2px] border-black rounded-xl transition-all duration-300 ease-in-out md:px-6 px-5 shadow-accordianshadow`}
+              } ${index === 1 ? "sm:py-4 py-2":" py-4 sm:py-[23px]"} accordion-item border-solid border-r-[2px] border-b-[2px] border-black rounded-xl transition-all duration-300 ease-in-out md:px-6 px-5 shadow-accordianshadow`}
               key={index}
             >
               <div
@@ -60,7 +60,7 @@ const Frequently = () => {
                 <p
                   className={`${
                     openAccordion === index ? "pb-[14px]" : ""
-                  } font-poppins font-semibold md:text-base text-sm leading-12 text-offBlack flex gap-1 max-w-[555px]`}
+                  } font-poppins font-semibold md:text-base text-sm !leading-120 text-offBlack flex gap-1 max-w-[555px]`}
                 >
                   {item.titleno} <span>{item.title}</span>
                 </p>
@@ -75,7 +75,7 @@ const Frequently = () => {
                 </div>
               </div>
               <div
-                className={`accordion-content overflow-hidden transition-all duration-500 ease-in-out`}
+                className={`accordion-content overflow-hidden h-auto transition-all duration-500 ease-in-out`}
                 style={{
                   height:
                     openAccordion === index
