@@ -17,7 +17,7 @@ const Services = () => {
 ))}
 </div>
       </div>
-      <img src={greenVector} alt="greenVector" className='absolute top-[10%] right-0' />
+      <img src={greenVector} alt="greenVector" className='absolute sm:top-[10%] top-[2%] right-0 max-md:max-w-[120px] max-sm:w-20' />
     </div>
   )
 }
