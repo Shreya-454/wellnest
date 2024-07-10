@@ -48,9 +48,9 @@ const Frequently = () => {
             <div onClick={() => toggleAccordion(index)}
               className={`${
                 openAccordion === index
-                  ? " pt-6 pb-[23px]"
+                  ? "  !py-[23px]"
                   : ""
-              } ${index === 1 ? "sm:py-[23.5px] py-2":" py-4 sm:py-[26px]"} cursor-pointer accordion-item border-solid border-r-2px border-b-2 border-black rounded-xl transition-all duration-300 ease-in-out md:px-6 px-5 shadow-accordianshadow`}
+              } ${index === 1 ? "sm:py-[23.5px] py-2":" py-4 sm:py-[25.5px]"} cursor-pointer accordion-item border-solid border-r-2px border-b-2 border-black rounded-xl transition-all duration-300 ease-in-out md:px-6 px-5 shadow-accordianshadow`}
               key={index}
             >
               <div
