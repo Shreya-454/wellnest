@@ -25,7 +25,7 @@ const Key = () => {
         alt="ellipse2" width={192} height={192}
         className="absolute bottom-0 left-[-4%] pointer-events-none z-0"
       />
-      <div className="container max-w-[1140px] relative px-3">
+      <div className="container max-w-[1172px] relative px-4">
         <img
           src={topQuotes}
           alt="top"

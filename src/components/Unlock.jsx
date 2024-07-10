@@ -11,7 +11,7 @@ const Unlock = () => {
         alt="green"
         className="absolute bottom-[18%] pointer-events-none left-0 z-[-1] max-lg:max-w-[66px]"
       />
-      <div className="container max-w-[1164px] px-4 mx-auto">
+      <div className="container max-w-[1172px] px-4 mx-auto">
         <div className="flex lg:flex-row lg:gap-4 flex-col justify-between">
           <CommonHeading
             heading="Unlock Your Potential With  "
