@@ -24,8 +24,8 @@ const Frequently = () => {
       />
       <img
         src={ellipsvector}
-        alt="ellipsvector" width={231.18} height={252}
-        className="absolute -right-11 top-0 pointer-events-none w-full max-w-[231px] h-[252px]  lg:block hidden"
+        alt="ellipsvector" width={260} height={300}
+        className="absolute -right-11 top-0 pointer-events-none w-full max-w-[260px] h-[300px]  lg:block hidden"
       />
       <img
         src={greenlinevector}
@@ -34,8 +34,8 @@ const Frequently = () => {
       />
       <img
         src={greenellipsevector}
-        alt="greenellipsevector"  width={229} height={249}
-        className="absolute w-full max-w-[229px] -left-11 h-[249px] bottom-0 lg:block hidden pointer-events-none"
+        alt="greenellipsevector"  width={229} height={300}
+        className="absolute w-full max-w-[250px] -left-11 h-[300px] bottom-[-5%] lg:block hidden pointer-events-none"
       />
       <div className="container max-w-[1164px] mx-auto px-4 relative z-10">
         <CommonHeading
