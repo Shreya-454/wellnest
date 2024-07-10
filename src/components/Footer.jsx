@@ -27,7 +27,7 @@ const Footer = () => {
                 className="w-full md:max-w-[187.25px] sm:max-w-[150px] max-w-[120px] mb-[10px]"
               />
             </Link>
-            <p className="lg:max-w-[473px] lg:max-w-[548px] font-poppins sm:text-base text-sm font-normal leading-normal text-black opacity-80 md:mb-[21px] mb-4">
+            <p className="lg:max-w-[473px] font-poppins sm:text-base text-sm font-normal leading-normal text-black opacity-80 md:mb-[21px] mb-4">
               At WellNest, we are dedicated to fostering personal and
               professional growth through holistic coaching and consultancy
               services.
