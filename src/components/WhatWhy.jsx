@@ -27,18 +27,18 @@ const WhatWhy = () => {
               className="xl:w-[732px] 2xl:w-full lg:w-[500px] md:w-[360px] max-h-[632px] object-cover"
             />
           </div>
-          <div className="xl:pl-12 2xl:w-1/2 lg:ps-6 ps-3 max-md:mt-4 ">
+          <div className="xl:pl-12 lg:py-0 md:py-5 2xl:w-1/2 lg:ps-6 ps-3 max-md:mt-4 ">
             <CommonHeading
               heading="Why I Do"
               purpleHeading=" What I Do?"
-              className="md:text-start text-center"
+              className="md:text-start  text-center"
             />
             <CommonPara
               text="To bridge the information and services gap to support our
         community in both corporate and individual wellness."
-              className="max-w-[538px] md:text-start text-center md:pt-4 pt-2"
+              className="max-w-[538px] md:text-start text-center  pt-2"
             />
-            <div className="flex xl:mt-10 md:justify-start justify-center md:mt-6 mt-3">
+            <div className="flex xl:mt-10 md:justify-start justify-center md:mt-4 mt-3">
               <Button btnName="Book A Free Consultation Now" />
             </div>
           </div>

@@ -6,15 +6,19 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="xl:mt-[140px] lg:mt-24 md:mt-20 sm:mt-16 mt-12 bg-footerBg md:pt-24 sm:pt-20 pt-12 pb-4 relative">
+    <div className="xl:mt-[140px] lg:mt-24 md:mt-20 sm:mt-16 mt-12 bg-footerBg lg:pt-24 md:pt-20 sm:pt-16 pt-12 pb-4 relative">
       <img
         src={purplevector}
-        alt="purplevector" width={184} height={50}
+        alt="purplevector"
+        width={184}
+        height={50}
         className="absolute max-w-[184.8px] w-full top-6 pointer-events-none md:block hidden"
       />
       <img
         src={purplevector}
-        alt="purplevector" width={184} height={50}
+        alt="purplevector"
+        width={184}
+        height={50}
         className="absolute bottom-[90.37px] right-0 w-full max-w-[184.8px] pointer-events-none md:block hidden"
       />
       <div className="container max-w-[1164px] xl:pt-1 px-4 mx-auto md:pb-[45px] sm:pb-12 pb-10">
@@ -23,7 +27,9 @@ const Footer = () => {
             <Link aria-label="footer logo" to="/" rel="noopener noreferrer">
               <img
                 src={footerlogo}
-                alt="footerlogo" width={187} height={34}
+                alt="footerlogo"
+                width={187}
+                height={34}
                 className="w-full md:max-w-[187.25px] sm:max-w-[150px] max-w-[120px] mb-[10px]"
               />
             </Link>
@@ -55,10 +61,11 @@ const Footer = () => {
                   </li>
                   {obj.links.map((data, index) => (
                     <li key={index} className="mb-2.5 sm:mb-3">
-                      <a href={data.path}
-                          className="font-poppins font-normal md:text-base text-sm text-black opacity-70 hover:opacity-100 transition-opacity ease-linear duration-300 text-nowrap"
-                        >
-                          {data.link}
+                      <a
+                        href={data.path}
+                        className="font-poppins footerLinkHover font-normal md:text-base text-sm text-black opacity-70 hover:opacity-100 transition-opacity ease-linear duration-300 text-nowrap"
+                      >
+                        {data.link}
                       </a>
                     </li>
                   ))}
@@ -71,7 +78,7 @@ const Footer = () => {
       <div className="h-[1px] w-full bg-black opacity-10"></div>
       <div className="max-w-[1164px] mx-auto py-[15px] flex justify-between px-4">
         <p className="font-normal capitalize leading-normal md:text-base sm:text-sm text-xs text-black opacity-80 font-poppins">
-          The Wellnest {new Date().getFullYear()}. All Rights Reserved.
+          The Wellnest © {new Date().getFullYear()}. All Rights Reserved.
         </p>
         <p className="capitalize font-poppins font-normal md:text-base sm:text-sm text-xs text-black opacity-70">
           Privacy Policy

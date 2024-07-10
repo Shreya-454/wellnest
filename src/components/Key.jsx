@@ -7,7 +7,7 @@ import pupleWave from "../assets/images/svg/key/purpleWave.svg"
 
 const Key = () => {
   return (
-    <section className="xl:mt-32 lg:mt-28 mt-20 lg:h-[404px] max-lg:pb-6 bg-lightOrange z-[2] relative">
+    <section className="xl:mt-32 lg:mt-28 mt-20 lg:h-[404px] max-lg:pb-8 px-2 bg-lightOrange z-[2] relative">
       <img
         src={pupleWave}
         alt="wave"
@@ -43,7 +43,7 @@ const Key = () => {
               look at the different parts of our lives that are feeding us and
               propelling us forward - and parts that are only holding us back.”
             </h3>
-            <p className="font-poppins sm:text-xl text-lg lg:text-start text-center text-darkOrange pb-1 font-medium leading-150 ">
+            <p className="font-poppins sm:text-xl text-lg lg:text-start text-center text-darkOrange pb-1 font-medium !leading-100">
               Coach Mariyam
             </p>
             <p className="font-poppins font-normal lg:text-start text-center sm:text-base text-sm leading-150 text-darkOrange">
@@ -62,7 +62,7 @@ const Key = () => {
                 alt="key" width={362.11} height={427.94}
                 className="max-w-[362px] z-1 shadow-keyImgShadow rounded-[24px] relative top-[-6%] right-2 custom_sm:right-[26px] h-full sm:max-h-[427px] w-full"
               />
-              <div className="border-[12px] z-[-1] max-custom_xs:hidden block border-solid border-purple custom_sm:w-[362px] w-[320px] max-custom_sm:ml-6 max-custom_sm:h-[386px] max-sm:h-[425px] absolute top-0 bottom-0 lg:right-0 sm:h-[428px] h-[380px] rounded-[24px]"></div>
+              <div className="border-[12px] z-[-1] max-custom_xs:hidden block border-solid border-purple custom_sm:w-[362px] w-[320px] max-custom_sm:ml-3 max-custom_sm:h-[376px] max-sm:h-[425px] absolute top-0 bottom-0 lg:right-0 sm:h-[428px] h-[380px] rounded-[24px]"></div>
             </div>
           </div>
         </div>

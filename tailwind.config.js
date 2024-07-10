@@ -54,6 +54,9 @@ module.exports = {
     custom_lg: "1055px",
     'custom_sm': '400px',
     custom_xs:'370px'
+      },
+      animation: {
+    bounce: 'bounce 5s linear infinite',
   }
   
 }

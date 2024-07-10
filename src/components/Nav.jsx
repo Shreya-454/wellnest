@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import navlogo from "../assets/images/svg/header/wellnestLogo.svg";
 import { NavLinkList } from "./common/Helper";
-import { Link } from "react-router-dom";
 import { Button } from "./common/Button";
 
 export const Nav = () => {
@@ -16,7 +15,7 @@ export const Nav = () => {
   }
     return (
       <div className="container px-4 max-w-[1172px]">
-        <div className="py-6 flex items-center justify-between">
+        <div className="md:py-6 py-4 flex items-center justify-between">
           <a href="#">
             <img src={navlogo} alt="logo" className="max-sm:w-[140px]" width={188} height={35} />
           </a>
@@ -40,7 +39,7 @@ export const Nav = () => {
               />
             </li>
           </ul>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-5">
             <Button
               btnName="Get Started"
               className="sm:block hidden !px-[29px]"
