@@ -7,7 +7,7 @@ const Meet = () => {
   return (
     <div className=' relative' id='about'>
         <img src={meetEllipse} alt="ellipse" className='absolute top-0  object-cover w-full z-[-1]' />
-      <div className='max-w-[1440px] mx-auto xl:pt-[405px] lg:pt-28 sm:pt-[140px] pt-24'>
+      <div className='max-w-[1440px] mx-auto xl:pt-[405px] lg:pt-56 sm:pt-32 pt-24'>
         <div className="container max-w-[1322px] px-4 xl:-translate-x-[4%]">
       <div className="flex flex-row flex-wrap -mx-3">
       <div className="lg:w-1/2 w-full flex justify-center px-3">
