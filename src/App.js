@@ -13,7 +13,7 @@ import BackToTop from "./components/BackToTop";
 
 function App() {
   return (
-    <div>
+    <div className="overflow-x-clip">
       <Hero />
       <Meet/>
       <Services/>
