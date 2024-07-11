@@ -7,7 +7,7 @@ const WhatWhy = () => {
   return (
     <section
       id="benefits"
-      className="max-md:py-6 sm:-mt-6 -mt-3 relative z-[1] bg-lightOrange"
+      className="max-md:py-6 sm:-mt-6 -mt-3 relative z-[1] bg-lightOrange overflow-x-clip"
     >
       <img
         src={orangeEllipse}

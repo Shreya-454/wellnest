@@ -13,7 +13,7 @@ import BackToTop from "./components/BackToTop";
 
 function App() {
   return (
-    <div className="overflow-x-clip">
+    <>
       <Hero />
       <Meet/>
       <Services/>
@@ -25,7 +25,7 @@ function App() {
       <VisitProfile/>
       <Footer />
       <BackToTop/>
-    </div>
+    </>
   );
 }
 
