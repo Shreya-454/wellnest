@@ -36,12 +36,12 @@ const Meet = () => {
         </div>
          </div>
          <div className=' flex max-lg:justify-center max-sm:mt-24'>
-       <div className="w-full max-w-[558px] py-[13px] px-[18px] rounded-3xl bg-purple border-r-4 border-b-4 border-black max-sm:flex-col flex items-center gap-5 sm:gap-[37px] box-border">
+       <div className="w-full max-w-[558px] py-[13px] px-[18px] rounded-3xl bg-purple border-r-4 hover:border-transparent duration-300 border-b-4 border-black max-sm:flex-col flex items-center gap-5 sm:gap-[37px] box-border">
         <img src={qrImage} alt="QRImg" className='max-w-[130px] max-sm:-translate-y-20' height={130} width={130} />
         <div className='max-sm:-mt-20'>
         <h3 className='font-poppins text-xl sm:text-2xl font-medium !leading-120 text-white mb-[7px] max-sm:text-center'>Coach Mariam.</h3>
-        <a href='mailto:coachmariam@gmail.com' className='font-inter text-base sm:text-custom_lg tracking-[0.01em] text-white text-opacity-90 leading-180 max-sm:text-center'>Mail : coachmariam@gmail.com</a>
-        <a href='tel:(+1) 987 643 4000' className='font-inter text-base sm:text-custom_lg tracking-[0.01em] text-white text-opacity-90 leading-180 max-sm:text-center block'> Phone : (+1) 987 643 4000</a>
+        <a href='mailto:coachmariam@gmail.com' className='font-inter hover:text-black duration-300 text-base sm:text-custom_lg tracking-[0.01em] text-white text-opacity-90 leading-180 max-sm:text-center'>Mail : coachmariam@gmail.com</a>
+        <a href='tel:(+1) 987 643 4000' className='font-inter text-base sm:text-custom_lg tracking-[0.01em] hover:text-black duration-300 text-white text-opacity-90 leading-180 max-sm:text-center block'> Phone : (+1) 987 643 4000</a>
       </div>
          </div>
         </div>

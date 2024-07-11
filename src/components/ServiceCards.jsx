@@ -6,10 +6,10 @@ const ServiceCards = (props) => {
     <div
       className={`w-full relative rounded-[30px] pt-4 xl:pt-6 px-4 sm:px-6 pb-5 xl:pb-9 hover:border-transparent duration-300 border-r-4 border-b-4 border-black overflow-hidden ${props.color}`}
     >
-      <div className="sm:w-20 w-16 sm:h-20 h-16 rounded-full flex bg-white justify-center items-center xl:mb-6 sm:mb-4 mb-3">
-        <img src={props.icon} alt="icons" width={40} height={40} />
+      <div className={`sm:w-20 w-16 sm:h-20 h-16 rounded-full flex bg-white justify-center items-center xl:mb-6 sm:mb-4 mb-3`}>
+        <img src={props.icon} alt="icons" width={40} height={40} className=" pointer-events-none cursor-none select-none"/>
       </div>
-      <h3 className="md:text-2xl sm:text-xl text-lg font-medium font-poppins !leading-120 text-lightBlack mb-2">
+      <h3 className={`md:text-2xl sm:text-xl text-lg font-medium font-poppins !leading-120 text-lightBlack mb-2`}>
         {props.title}
       </h3>
       <p
@@ -18,7 +18,7 @@ const ServiceCards = (props) => {
         {props.discription}
       </p>
       <Button btnName={props.name} />
-      <div className={`bg-offWhite absolute top-0 left-0 right-0 z-[1] bottom-0 backdrop-blur-md flex justify-center items-center ${props.className}`}>
+      <div className={`bg-offWhite select-auto absolute top-0 left-0 right-0 z-[1] bottom-0 backdrop-blur-md flex justify-center items-center ${props.className}`}>
         <div className=" flex flex-col items-center">
           <div className="sm:w-20 sm:h-20 w-16 h-16 rounded-full flex bg-white justify-center items-center mb-5">
             <img src={props.icon} alt="icons"  width={40} height={40}/>

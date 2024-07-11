@@ -33,7 +33,7 @@ const VisitProfile = () => {
             </h3>
             <a
               rel="noopener noreferrer"
-              className="bg-white capitalize font-poppins font-semibold text-base leading-normal border-solid border-r border-b border-black py-[14px] px-6 rounded shadow-buttonShadow !text-black flex gap-[6px] max-w-[252px]"
+              className="bg-white capitalize font-poppins font-semibold text-base leading-normal border-solid hover:text-darkBlue duration-300 border-r border-b border-black hover:bg-fadeOrange  py-[14px] px-6 rounded shadow-buttonShadow text-black flex gap-[6px] max-w-[252px]"
               href="https://www.linkedin.com/"
               target="_blank"
             >
