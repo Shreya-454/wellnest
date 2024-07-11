@@ -45,8 +45,7 @@ const Footer = () => {
                   to={obj.url}
                   aria-label="social link"
                   rel="noopener noreferrer"
-                  target="_blank"
-                >
+                  target="_blank">
                   {obj.icons}
                 </Link>
               ))}
@@ -54,7 +53,7 @@ const Footer = () => {
           </div>
           <div className="lg:w-5/12 w-full flex lg:justify-center lg:pt-0 pt-9">
             <div className="flex md:gap-[66px] sm:gap-[50px] max-sm:justify-between w-full">
-              {footerLinkList.map((obj, id) => (
+              {footerLinkList.map((obj,id) => (
                 <ul key={id} className="flex flex-col">
                   <li className="font-poppins md:text-base text-sm font-medium text-black mb-2.5 sm:mb-3.5">
                     {obj.title}
