@@ -22,15 +22,15 @@ const Meet = () => {
         <CommonPara text="After 2 degrees, 16+ years in corporate, and a decade of working through my own health issues, I embarked on a journey to heal, chuck the societal script and find a purpose that both motivated me everyday and allowed me to make a difference in the world." className="sm:mb-4 mb-2 max-lg:text-center"/>
         <CommonPara text="Through my own journey, I discovered the power of coaching and sought the guidance of a mentor who empowered me to overcome obstacles and reclaim control of my life. Now, as a Certified Health Coach, I am committed to paying forward this transformative support to others." className="md:mb-10 sm:mb-7 mb-5 max-lg:text-center"/>
         <div className="flex flex-row flex-wrap w-full md:mb-9 sm:mb-7 mb-5">
-        <div className="w-1/3 after:w-[1px] after:h-[88px] after:absolute relative after:bg-orange after:right-0 after:top-1 max-sm:pr-1">
+        <div className="w-1/3 after:w-[1px] after:h-[88px] after:absolute relative after:bg-orange after:right-0 after:top-1 max-sm:px-2">
         <CommonHeading heading="02" className="mb-2 max-lg:text-center"/>
         <CommonPara text="Books Published" className="mb-2 max-lg:text-center"/>
         </div>
-        <div className="w-1/3 after:w-[1px] after:h-[88px] after:absolute max-sm:px-1 relative after:bg-orange after:right-0 after:top-1 lg:pl-9">
+        <div className="w-1/3 after:w-[1px] after:h-[88px] after:absolute max-sm:px-2 relative after:bg-orange after:right-0 after:top-1 lg:pl-9">
         <CommonHeading heading="4.5" className="mb-2 max-lg:text-center"/>
         <CommonPara text="User Reviews" className="mb-2 max-lg:text-center"/>
         </div>
-        <div className="w-1/3 lg:pl-9">
+        <div className="w-1/3 lg:pl-9 max-sm:px-2">
         <CommonHeading heading="04" className="mb-2 max-lg:text-center"/>
         <CommonPara text="Best Seller Awards" className="mb-2 max-lg:text-center"/>
         </div>
