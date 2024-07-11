@@ -1,7 +1,7 @@
 import React from 'react'
 import { CommonHeading, } from './common/Headings'
 import { ServiceList } from './common/Helper'
-import greenVector from '../assets/images/svg/services/serviceGreenVector.svg'
+import greenVector from '../assets/images/svg/services/GreenVector.svg'
 import ServiceCards from './ServiceCards'
 
 const Services = () => {
