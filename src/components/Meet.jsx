@@ -1,5 +1,5 @@
 import React from 'react'
-import meetImg from '../assets/images/webp/meet/borderImg.webp'
+import mariam from '../assets/images/webp/meet/Mariam.webp'
 import { CommonHeading, CommonPara } from './common/Headings'
 import qrImage from '../assets/images/webp/meet/qrScaner.webp'
 import meetEllipse from '../assets/images/webp/meet/roundEllipse.webp'
@@ -12,7 +12,7 @@ const Meet = () => {
       <div className="flex flex-row flex-wrap -mx-3">
       <div className="lg:w-1/2 w-full flex justify-center px-3">
       <div className='h-auto max-lg:mb-7 max-sm:mb-5'>
-        <div className=' after:inset-0 after:absolute relative after:border-[12px] after:border-purple after:z-[-1] after:rounded-3xl rounded-3xl object-cover'><img src={meetImg} alt="meetImg" className='lg:max-w-[569.58px] max-w-[380px] sm:-translate-y-10 sm:-translate-x-10 w-full shadow-keyImgShadow rounded-3xl ' width={569.58} height={673.14}/></div>
+        <div className=' after:inset-0 after:absolute relative after:border-[12px] after:border-purple after:z-[-1] after:rounded-3xl rounded-3xl object-cover'><img src={mariam} alt="meetImg" className='lg:max-w-[569.58px] max-w-[380px] sm:-translate-y-10 sm:-translate-x-10 w-full shadow-keyImgShadow rounded-3xl ' width={569.58} height={673.14}/></div>
       </div>
       </div>
       <div className="lg:w-1/2 w-full px-3 flex justify-center lg:justify-end lg:-mt-7">

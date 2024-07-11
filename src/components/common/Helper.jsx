@@ -48,7 +48,7 @@ export const UnlockData = [
   },
 ];
 
-// =============== FREQUENTLY ===================
+// =============== FAQ ===================
 export const AccordionData = [
   {
     title: "What is a Health Coaches scope of practice?",
