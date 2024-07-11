@@ -34,16 +34,16 @@ export const HeroImageList = [
 // ================== UNLOCK ===================
 export const UnlockData = [
   {
-    dates: "01",
+    date: "01",
     title:
       "Meditation 101: Learn the basics of meditation to start your own practice.",
   },
   {
-    dates: "04",
+    date: "04",
     title: "Tap into your Intuition",
   },
   {
-    dates: "06",
+    date: "06",
     title: "Living in Alignment",
   },
 ];

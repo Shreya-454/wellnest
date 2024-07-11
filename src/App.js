@@ -21,7 +21,7 @@ function App() {
       <Vision />
       <Unlock />
       <WhatWhy />
- <Faq/>
+      <Faq/>
       <VisitProfile />
       <Footer />
       <BackToTop />
