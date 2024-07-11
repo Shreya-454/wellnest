@@ -23,7 +23,7 @@ const BackToTop = () => {
   return (
     <div>
       <button
-        className="group animate-bounce hover:border-2 border-2 flex justify-center md:w-[45px] border-transparent hover:border-black w-[36px] h-[36px] md:h-[45px] bg-purple group rounded-full items-center p-2 fixed right-[1.4%] lg:bottom-2.5 bottom-9 z-30 transition-all ease-linear duration-300"
+        className="group animate-bounce hover:border-2 border-2 flex justify-center md:w-11 border-transparent hover:border-black w-9 h-9 md:h-11 bg-purple group rounded-full items-center p-2 fixed right-[1.4%] lg:bottom-2.5 bottom-9 z-30 transition-all ease-linear duration-300"
         onClick={scrollToTop}
         style={{
           display: visible ? "flex " : "none",
