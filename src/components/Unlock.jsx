@@ -27,7 +27,7 @@ const Unlock = () => {
                 <div className="flex sm:flex-row lg:pt-6 pt-4 flex-col md:gap-6 gap-4">
                   <div className="mb-0">
                     <p className="lg:text-custom_5xl sm:text-start text-center md:text-4xl sm:text-3xl text-2xl text-black font-semibold !leading-78 font-poppins">
-                      {obj.dates}
+                      {obj.date}
                     </p>
                     <CommonPara
                       text="August 2023"
