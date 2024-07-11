@@ -16,7 +16,7 @@ const WhatWhy = () => {
         height={234}
         className="absolute top-0 max-lg:max-w-[66px] right-0 z-[-1]"
       />
-      <div className="max-w-[1920px] mx-auto px-4 container">
+      <div className="max-w-[1920px] mx-auto px-4 lg:px-0 container">
         <div className="flex items-center max-md:px-4 md:flex-row flex-col -mx-3">
           <div className="2xl:w-1/2">
             <img
