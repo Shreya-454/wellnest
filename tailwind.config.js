@@ -16,7 +16,7 @@ module.exports = {
         'custom_6xl':'64px',
       },
       backgroundImage:{
-"herobg":"url(./assets/images/webp/header/heroBg.webp)"
+"heroBg":"url(./assets/images/webp/header/heroBg.webp)"
       },
       lineHeight: {
         78: "78%",
@@ -46,11 +46,9 @@ module.exports = {
     },
     boxShadow:{
       buttonShadow:'2px 2px 0px 0px #000000',
-      accordianshadow: '0px 4px 23px 0px #0000001F',
+      accordianShadow: '0px 4px 23px 0px #0000001F',
       borderShadow:'0px 1px 23px 0px #A18EE814',
       keyImgShadow:' 0px 36.25px 25.89px 0px #040B1426'
-
-
       },
   container:{
     center:true,
@@ -64,7 +62,6 @@ module.exports = {
       animation: {
     bounce: 'bounce 5s linear infinite',
   }
-  
 }
 },
   plugins: [],
