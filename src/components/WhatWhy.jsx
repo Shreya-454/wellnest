@@ -1,4 +1,4 @@
-import whatImg from "../assets/images/webp/whatDo/doImg.webp";
+import whatImg from "../assets/images/webp/whatDo/manDo.webp";
 import { Button } from "./common/Button";
 import { CommonHeading, CommonPara } from "./common/Headings";
 import orangeEllipse from "../assets/images/svg/whatWhy/orangeEllipse.svg";

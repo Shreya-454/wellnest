@@ -47,7 +47,7 @@ export const LinkdinVisitProfile = () => {
 };
 
 // ============== FOOTER ======================
-export const Instagrame = () => {
+export const Instagram = () => {
   return (
     <svg
       className="group"

@@ -6,7 +6,7 @@ import heroImg4 from '../../assets/images/webp/header/hero4.webp'
 import coaching from '../../assets/images/svg/services/coaching.svg'
 import cunsultancy from '../../assets/images/svg/services/consultancy.svg'
 import home from '../../assets/images/svg/services/home.svg'
-import { Instagrame, Twitter, Facebook, Youtube, Music } from "../common/Icon";
+import { Instagram, Twitter, Facebook, Youtube, Music } from "../common/Icon";
 
 // =============== HERO SECTION =============
 export const NavLinkList = [
@@ -139,7 +139,7 @@ export const ServiceList =[
 // ============== FOOTER ===================
 export const FooterSocialIcon = [
   {
-    icons: <Instagrame />,
+    icons: <Instagram/>,
     url: "https://www.instagram.com/",
   },
   {

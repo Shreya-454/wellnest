@@ -1,4 +1,4 @@
-import visionImg from "../assets/images/webp/vision/visionImg.webp"
+import visionImg from "../assets/images/webp/vision/ceoFull.webp"
 import { Button } from "./common/Button";
 import { CommonHeading, CommonPara } from "./common/Headings";
 

@@ -1,4 +1,4 @@
-import keyImg from "../assets/images/webp/key/keyImg.webp"
+import keyImg from "../assets/images/webp/key/man1.webp"
 import bottomQuotes from "../assets/images/svg/key/bottomQuotes.svg"
 import topQuotes from "../assets/images/svg/key/topQuotes.svg"
 import keyDotsEllipse from "../assets/images/svg/key/dotsEllipse.svg"

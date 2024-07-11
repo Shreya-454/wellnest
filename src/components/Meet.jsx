@@ -1,8 +1,8 @@
 import React from 'react'
-import meetImg from '../assets/images/webp/meet/meetImg.webp'
+import meetImg from '../assets/images/webp/meet/borderImg.webp'
 import { CommonHeading, CommonPara } from './common/Headings'
 import qrImage from '../assets/images/webp/meet/qrScaner.webp'
-import meetEllipse from '../assets/images/webp/meet/meetEllipse.webp'
+import meetEllipse from '../assets/images/webp/meet/roundEllipse.webp'
 const Meet = () => {
   return (
     <div className=' relative' id='about'>
