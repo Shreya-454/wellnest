@@ -29,7 +29,7 @@ const Vision = () => {
         future.
       </p>
       <div className="flex lg:mt-10 md:mt-8 mt-4 justify-center">
-        <Button btnName="Book A Free Consultation Now" />
+        <Button btnTitle="Book A Free Consultation Now" />
       </div>
     </section>
   );

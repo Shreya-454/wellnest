@@ -39,7 +39,7 @@ const WhatWhy = () => {
               className="max-w-[538px] md:text-start text-center  pt-2"
             />
             <div className="flex xl:mt-10 md:justify-start justify-center mt-4">
-              <Button btnName="Book A Free Consultation Now" />
+              <Button btnTitle="Book A Free Consultation Now" />
             </div>
           </div>
         </div>

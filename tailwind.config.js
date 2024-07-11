@@ -56,8 +56,7 @@ module.exports = {
   }, 
   screens:{
     custom_lg: "1055px",
-    'custom_sm': '450px',
-    custom_xs:'375px'
+    custom_sm: '450px',
       },
       animation: {
     bounce: 'bounce 5s linear infinite',

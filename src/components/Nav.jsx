@@ -34,14 +34,14 @@ export const Nav = () => {
             ))}
             <li>
               <Button
-                btnName="Get Started"
+                btnTitle="Get Started"
                 className="sm:hidden block !px-[29px]"
               />
             </li>
           </ul>
           <div className="flex items-center gap-5">
             <Button
-              btnName="Get Started"
+              btnTitle="Get Started"
               className="sm:block hidden !px-[29px]"
             />
             <label className=" lg:hidden" onClick={nav}>
