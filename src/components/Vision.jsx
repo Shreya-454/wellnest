@@ -17,7 +17,7 @@ const Vision = () => {
       <CommonHeading
         heading="My Vision For "
         purpleHeading="Tomorrow"
-        className="lg:mt-10 md:mt-8 mt-3 text-center px-4"
+        className="lg:mt-10 md:mt-8 mt-4 text-center px-4"
       />
       <p className="md:max-w-[886px] font-poppins font-normal text-center sm:text-base max-lg:px-4 text-sm md:pt-4 pt-2 mx-auto leading-150 text-black text-opacity-70">
         To support our society in realizing a better self, a better{" "}
@@ -28,7 +28,7 @@ const Vision = () => {
         collectively build a more compassionate, connected, and sustainable
         future.
       </p>
-      <div className="flex lg:mt-10 md:mt-8 mt-3 justify-center">
+      <div className="flex lg:mt-10 md:mt-8 mt-4 justify-center">
         <Button btnName="Book A Free Consultation Now" />
       </div>
     </section>

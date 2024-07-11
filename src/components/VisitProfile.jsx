@@ -6,7 +6,7 @@ import ellipsvector from "../assets/images/svg/visit/profileEllipsVector.svg";
 
 const VisitProfile = () => {
   return (
-    <div className="md:pt-[71px] sm:pt-16 pt-12 xl:px-0 px-4">
+    <div className="xl:pt-[71px] lg:pt-24 md:pt-20 sm:pt-16 pt-12 xl:px-0 px-4">
       <div className="container max-w-[1172px] px-4 mx-auto bg-orange lg:py-[116px] md:py-24 sm:py-20 py-12 rounded-3xl border-solid border-r-8 border-b-8 border-black relative overflow-hidden">
         <img
           src={vector}

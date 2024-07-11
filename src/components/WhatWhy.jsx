@@ -7,7 +7,7 @@ const WhatWhy = () => {
   return (
     <section
       id="benefits"
-      className="max-md:py-6 -mt-6 relative z-[1] bg-lightOrange"
+      className="max-md:py-6 sm:-mt-6 -mt-3 relative z-[1] bg-lightOrange"
     >
       <img
         src={orangeEllipse}
@@ -38,7 +38,7 @@ const WhatWhy = () => {
         community in both corporate and individual wellness."
               className="max-w-[538px] md:text-start text-center  pt-2"
             />
-            <div className="flex xl:mt-10 md:justify-start justify-center md:mt-4 mt-3">
+            <div className="flex xl:mt-10 md:justify-start justify-center mt-4">
               <Button btnName="Book A Free Consultation Now" />
             </div>
           </div>
