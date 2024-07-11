@@ -80,9 +80,9 @@ const Footer = () => {
         <p className="font-normal capitalize leading-normal md:text-base sm:text-sm text-xs text-black opacity-80 font-poppins">
           The Wellnest © {new Date().getFullYear()}. All Rights Reserved.
         </p>
-        <p className="capitalize font-poppins font-normal md:text-base sm:text-sm text-xs text-black opacity-70">
-          Privacy Policy
-        </p>
+        <a href="#" className="capitalize font-poppins font-normal md:text-base sm:text-sm text-xs text-black opacity-70">
+            Privacy Policy
+        </a>
       </div>
     </div>
   );

@@ -9,16 +9,16 @@ const Unlock = () => {
       <img
         src={greenEllipse} width={113} height={245}
         alt="green"
-        className="absolute bottom-[18%] pointer-events-none left-0 z-[-1] max-lg:max-w-[66px]"
+        className="absolute bottom-[18%] pointer-events-none left-0 z-[-1] max-lg:max-w-[56px]"
       />
       <div className="container max-w-[1172px] px-4 mx-auto">
-        <div className="flex lg:flex-row lg:gap-4 flex-col justify-between">
+        <div className="flex lg:flex-row lg:gap-10 flex-col justify-between">
           <CommonHeading
             heading="Unlock Your Potential With  "
             purpleHeading="Inspiring Events"
             className="lg:max-w-[388px] xl:h-[174px] max-w-[664px] max-lg:mx-auto lg:text-start text-center"
           />
-          <div className='max-lg:pt-4 max-sm:pt-2'>
+          <div className='max-lg:pt-4 lg:mx-0 sm:mx-10 max-sm:pt-2'>
             {UnlockData.map((obj, i) => (
               <div
                 key={i}
