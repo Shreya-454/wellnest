@@ -15,6 +15,9 @@ module.exports = {
         'custom_5xl':'50px',
         'custom_6xl':'64px',
       },
+      backgroundImage:{
+"herobg":"url(./assets/images/webp/header/heroBg.webp)"
+      },
       lineHeight: {
         78: "78%",
         100: "100%",

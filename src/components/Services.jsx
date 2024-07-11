@@ -1,7 +1,7 @@
 import React from 'react'
 import { CommonHeading, } from './common/Headings'
 import { ServiceList } from './common/Helper'
-import greenVector from '../assets/images/svg/services/servicegreenvector.svg'
+import greenVector from '../assets/images/svg/services/serviceGreenVector.svg'
 import ServiceCards from './ServiceCards'
 
 const Services = () => {
@@ -12,7 +12,7 @@ const Services = () => {
 <div className="flex flex-wrap flex-row xl:-mx-3 -mx-2 justify-center">
 {ServiceList.map((item,i)=>(
   <div key={i} className={`lg:w-1/3 sm:w-1/2 w-full flex justify-center px-2 xl:px-3 ${i < 2 ? "max-lg:mb-4":""}`}>
-    <ServiceCards icon={item.icon} title={item.title} discription={item.discription} name={item.btnname} color={`${i === 1? "bg-skyBlue":"bg-lightGreen"} ${i === 2 ? "!bg-darkGreen !pointer-events-none !cursor-none select-none z-[-1]":"bg-lightGreen "}`} space={` ${i === 1 ?"pr-3":"" }`} className={`${i < 2 ? "hidden ":""}`} />
+    <ServiceCards icon={item.icon} title={item.title} discription={item.discription} name={item.btntitle} color={`${i === 1? "bg-skyBlue":"bg-lightGreen"} ${i === 2 ? "!bg-darkGreen !pointer-events-none !cursor-none select-none z-[-1]":"bg-lightGreen "}`} space={` ${i === 1 ?"pr-3":"" }`} className={`${i < 2 ? "hidden ":""}`} />
   </div>
 ))}
 </div>

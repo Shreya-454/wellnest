@@ -36,7 +36,7 @@ const Unlock = () => {
                   </div>
                   <div>
                     <h3 className="font-poppins font-medium md:text-2xl sm:text-start text-center sm:text-xl text-lg md:mb-4 mb-2 !leading-107 text-black">
-                      {obj.tittle}
+                      {obj.title}
                     </h3>
                     <CommonPara
                       text="Duration: 4 weekly sessions"

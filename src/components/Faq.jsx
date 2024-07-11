@@ -1,13 +1,13 @@
 import React, { useState, useRef } from "react";
 import { CommonHeading } from "./common/Headings";
-import { accordionData } from "./common/Helper";
+import { AccordionData} from "./common/Helper";
 import { FaqArrow } from "./common/Icon";
-import linevector from "../assets/images/svg/faq/faqLineVector.svg";
-import ellipsvector from "../assets/images/svg/faq/faqEllipsVector.svg";
-import greenlinevector from "../assets/images/svg/faq/faqGreenLineVector.svg";
-import greenellipsevector from "../assets/images/svg/faq/faqGreenEllipsVector.svg";
+import linevector from "../assets/images/svg/faq/LineVector.svg";
+import ellipsvector from "../assets/images/svg/faq/EllipsVector.svg";
+import greenlinevector from "../assets/images/svg/faq/GreenLineVector.svg";
+import greenellipsevector from "../assets/images/svg/faq/GreenEllipsVector.svg";
 
-const Frequently = () => {
+const Faq = () => {
   const [openAccordion, setOpenAccordion] = useState(0);
   const refs = useRef([]);
 
@@ -44,7 +44,7 @@ const Frequently = () => {
           purpleHeading="Questions"
         />
         <div className="flex flex-col sm:gap-5 gap-3 max-w-[768px] md:w-10/12 w-full mx-auto">
-          {accordionData.map((item, index) => (
+          {AccordionData.map((item, index) => (
             <div onClick={() => toggleAccordion(index)}
               className={`${
                 openAccordion === index
@@ -62,7 +62,7 @@ const Frequently = () => {
                     openAccordion === index ? "mb-2 sm:mb-3.5" : ""
                   } font-poppins font-semibold md:text-base text-sm !leading-120 text-offBlack flex gap-1 max-w-[555px]`}
                 >
-                  {item.titleno} <span>{item.title}</span>
+                  {`${++index}. `} <span> {item.title}</span>
                 </p>
                 <div className="sm:pt-0 pt-2">
                   <div
@@ -106,4 +106,4 @@ const Frequently = () => {
   );
 };
 
-export default Frequently;
+export default Faq;

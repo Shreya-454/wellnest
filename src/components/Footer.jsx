@@ -1,7 +1,7 @@
 import React from "react";
 import purplevector from "../assets/images/svg/footer/footerVector.svg";
 import footerlogo from "../assets/images/svg/footer/footerLogo.svg";
-import { footerLinkList, footerSocialIcon } from "./common/Helper";
+import {FooterList, FooterSocialIcon,} from "./common/Helper";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -39,7 +39,7 @@ const Footer = () => {
               services.
             </p>
             <div className="flex gap-4">
-              {footerSocialIcon.map((obj, id) => (
+              {FooterSocialIcon.map((obj, id) => (
                 <Link
                   key={id}
                   to={obj.url}
@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
           <div className="lg:w-5/12 w-full flex lg:justify-center lg:pt-0 pt-9">
             <div className="flex md:gap-[66px] sm:gap-[50px] max-sm:justify-between w-full">
-              {footerLinkList.map((obj,id) => (
+              {FooterList.map((obj,id) => (
                 <ul key={id} className="flex flex-col">
                   <li className="font-poppins md:text-base text-sm font-medium text-black mb-2.5 sm:mb-3.5">
                     {obj.title}
@@ -61,7 +61,7 @@ const Footer = () => {
                   {obj.links.map((data, index) => (
                     <li key={index} className="mb-2 sm:mb-3">
                       <a
-                        href={data.path}
+                        href={data.url}
                         className="font-poppins footerLinkHover font-normal md:text-base text-sm text-black opacity-70 hover:opacity-100 transition-opacity ease-linear duration-300 text-nowrap"
                       >
                         {data.link}
