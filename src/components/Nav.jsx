@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import navlogo from "../assets/images/svg/header/wellnestLogo.svg";
+import { NavLinkList } from "./common/Helper";
+import { Button } from "./common/Button";
 
 export const Nav = () => {
   const [show, setshow] = useState(true);
@@ -12,52 +14,36 @@ export const Nav = () => {
     }
   }
     return (
-      <div className="container px-3 max-w-[1140px]">
-        <div className="py-6 flex items-center justify-between">
+      <div className="container px-4 max-w-[1172px]">
+        <div className="md:py-6 py-4 flex items-center justify-between">
           <a href="#">
-            <img src={navlogo} alt="logo" className="max-sm:w-[140px]" />
+            <img src={navlogo} alt="logo" className="max-sm:w-[140px]" width={188} height={35} />
           </a>
           <ul
-            className={`flex gap-8 items-center mobileView  ${
+            className={`flex xl:gap-8 gap-5 items-center mobileView  ${
               show ? "right-[-100%]" : "right-0"
             }`}
           >
+            {NavLinkList.map((data, index) => (
+              <li key={index}>
+                <a href={data.path}
+                  onClick={nav} className="navLink">
+                  {data.link}
+                </a>
+              </li>
+            ))}
             <li>
-              <a href="" className="navLink">
-                About Wellnest
-              </a>
-            </li>
-            <li>
-              <a href="" className="navLink">
-                Our Services
-              </a>
-            </li>
-            <li>
-              <a href="" className="navLink">
-                Benefits
-              </a>
-            </li>
-            <li>
-              <a href="" className="navLink">
-                FAQs
-              </a>
-            </li>
-            <li>
-              <a href="" className="navLink">
-                Upcoming Workshops
-              </a>
-            </li>
-            <li>
-              {" "}
-              <button className="capitalize block sm:hidden text-white font-poppins font-semibold text-base bg-purple leading-normal border-solid border-r border-b border-black py-[14px] px-6 rounded shadow-buttonShadow">
-                Get Started
-              </button>
+              <Button
+                btnTitle="Get Started"
+                className="sm:hidden block !px-[29px]"
+              />
             </li>
           </ul>
-          <div className="flex items-center gap-3">
-            <button className="capitalize sm:block hidden text-white font-poppins font-semibold text-base bg-purple leading-normal border-solid border-r border-b border-black py-[14px] px-6 rounded shadow-buttonShadow">
-              Get Started
-            </button>
+          <div className="flex items-center gap-5">
+            <Button
+              btnTitle="Get Started"
+              className="sm:block hidden !px-[29px]"
+            />
             <label className=" lg:hidden" onClick={nav}>
               {show ? (
                 <div className="z-20 relative">

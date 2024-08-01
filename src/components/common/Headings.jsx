@@ -1,7 +1,7 @@
 export const CommonHeading = ({ purpleHeading, heading, className }) => {
   return (
     <h2
-      className={`font-poppins text-black font-semibold leading-120 text-5xl ${className}`}
+      className={`font-poppins text-black font-semibold !leading-120 md:text-5xl sm:text-4xl text-3xl ${className}`}
     >
       {heading}
       <span className="text-purple">{purpleHeading}</span>
@@ -12,7 +12,7 @@ export const CommonHeading = ({ purpleHeading, heading, className }) => {
 export const CommonPara = ({ text, className }) => {
   return (
     <p
-      className={`font-poppins text-base font-normal leading-150 text-black opacity-70 ${className}`}
+      className={`font-poppins sm:text-base text-sm font-normal leading-150 text-black opacity-70 ${className}`}
     >
       {text}
     </p>
