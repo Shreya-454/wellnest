@@ -9,7 +9,7 @@ export const CommonHeading = ({ purpleHeading, heading, className }) => {
   );
 };
 
-export const CommonPara = ({ text, className }) => {
+export const CommonPara = ({text, className}) => {
   return (
     <p
       className={`font-poppins sm:text-base text-sm font-normal leading-150 text-black opacity-70 ${className}`}

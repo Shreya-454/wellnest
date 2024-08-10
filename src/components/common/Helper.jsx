@@ -8,7 +8,7 @@ import cunsultancy from '../../assets/images/svg/services/consultancy.svg'
 import home from '../../assets/images/svg/services/home.svg'
 import { Instagram, Twitter, Facebook, Youtube, Music } from "../common/Icon";
 
-// =============== HERO SECTION =============
+// ============= HERO SECTION =============
 export const NavLinkList = [
   { link: "About Wellnest", url: "#about" },
   { link: "Our Services", url: "#services" },
@@ -31,7 +31,7 @@ export const HeroImageList = [
   },
 ];
 
-// ================== UNLOCK ===================
+// ============== UNLOCK =================
 export const UnlockData = [
   {
     date: "01",
@@ -136,7 +136,7 @@ export const ServiceList =[
   }
 ]
 
-// ============== FOOTER ===================
+// ============== FOOTER =================
 export const FooterSocialIcon = [
   {
     icons: <Instagram/>,
